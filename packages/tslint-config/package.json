@@ -5,7 +5,7 @@
   "main": "index.json",
   "name": "@ffflorian/tslint-config",
   "peerDependencies": {
-    "tslint": ">= 3.7.0"
+    "tslint": ">= 5.0.0"
   },
   "repository": "https://github.com/ffflorian/tree/master/packages/tslint-config",
   "version": "0.0.1",
