@@ -1,6 +1,10 @@
 {
   "author": "Florian Keller <github@floriankeller.de>",
   "description": "@ffflorian's prettier configuration",
+  "keywords": [
+    "prettier",
+    "prettierconfig"
+  ],
   "license": "MIT",
   "main": "index.json",
   "name": "@ffflorian/prettier-config",

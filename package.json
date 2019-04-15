@@ -1,6 +1,6 @@
 {
   "author": "Florian Keller <github@floriankeller.de>",
-  "description": "API clients for various services.",
+  "description": "My personal configuration files",
   "devDependencies": {
     "@ffflorian/prettier-config": "0.0.1",
     "husky": "1.3.1",
