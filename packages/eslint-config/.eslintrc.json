@@ -11,16 +11,10 @@
     "sourceType": "module"
   },
   "rules": {
-    "comma-dangle": [
-      "error",
-      "always-multiline"
-    ],
+    "comma-dangle": ["error", "always-multiline"],
     "curly": "error",
     "dot-notation": "error",
-    "indent": [
-      "error",
-      2
-    ],
+    "indent": ["error", 2],
     "no-const-assign": "error",
     "no-dupe-class-members": "error",
     "no-else-return": "error",
@@ -38,10 +32,7 @@
     ],
     "no-useless-return": "error",
     "no-var": "error",
-    "one-var": [
-      "error",
-      "never"
-    ],
+    "one-var": ["error", "never"],
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
     "prefer-object-spread": "error",
@@ -57,9 +48,6 @@
       }
     ],
     "sort-vars": "error",
-    "strict": [
-      "error",
-      "global"
-    ]
+    "strict": ["error", "global"]
   }
 }
