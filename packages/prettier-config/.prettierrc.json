@@ -3,7 +3,6 @@
   "arrowParens": "avoid",
   "bracketSpacing": false,
   "endOfLine": "lf",
-  "jsxBracketSameLine": false,
   "overrides": [
     {
       "files": [
