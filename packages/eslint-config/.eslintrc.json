@@ -48,6 +48,14 @@
       }
     ],
     "sort-vars": "error",
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "never",
+        "asyncArrow": "always",
+        "named": "never"
+      }
+    ],
     "strict": ["error", "global"]
   }
 }
