@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5](https://github.com/ffflorian/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.4...@ffflorian/eslint-config@0.0.5) (2019-04-15)
+
+
+### Bug Fixes
+
+* **eslint-config:** Extend from prettier ([#3](https://github.com/ffflorian/tree/master/packages/eslint-config/issues/3)) ([a74a37a](https://github.com/ffflorian/tree/master/packages/eslint-config/commit/a74a37a))
+
+
+
+
+
 ## [0.0.4](https://github.com/ffflorian/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.3...@ffflorian/eslint-config@0.0.4) (2019-04-15)
 
 
