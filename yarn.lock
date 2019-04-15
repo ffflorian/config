@@ -9,6 +9,11 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
+"@ffflorian/prettier-config@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/@ffflorian/prettier-config/-/prettier-config-0.0.2.tgz#d0873b5862987c8afb9c525b8b48534c4dff2729"
+  integrity sha512-Q7Lax9Z9hIyE37c/DARRHY3g147YJJk3nf/WyQz10otGxU4EqxjhWOiVseIiBQc1N4q5SoStFrxKROMzHd5kEg==
+
 "@lerna/add@3.13.1":
   version "3.13.1"
   resolved "https://registry.npmjs.org/@lerna/add/-/add-3.13.1.tgz#2cd7838857edb3b43ed73e3c21f69a20beb9b702"
