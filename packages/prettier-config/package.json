@@ -1,0 +1,8 @@
+{
+  "description": "@ffflorian's prettier configuration",
+  "license": "MIT",
+  "main": "prettierrc.json",
+  "name": "@ffflorian/prettier-config",
+  "repository": "https://github.com/ffflorian/prettier-config",
+  "version": "0.1.0"
+}
