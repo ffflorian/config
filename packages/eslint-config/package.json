@@ -12,5 +12,5 @@
     "eslint": ">= 3.0.0"
   },
   "repository": "https://github.com/ffflorian/tree/master/packages/eslint-config",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
