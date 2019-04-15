@@ -6,7 +6,7 @@
     "eslintconfig"
   ],
   "license": "MIT",
-  "main": "index.json",
+  "main": ".eslintrc.json",
   "name": "@ffflorian/eslint-config",
   "peerDependencies": {
     "eslint": ">= 3.0.0"

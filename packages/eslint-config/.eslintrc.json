@@ -1,5 +1,4 @@
 {
-  "$schema": "http://json.schemastore.org/eslintrc",
   "env": {
     "browser": true,
     "commonjs": true,
@@ -125,7 +124,7 @@
         "properties": false
       }
     ],
-    "indent": ["error", 4],
+    "indent": ["error", 2],
     "init-declarations": [0, "always"],
     "jsx-quotes": [2, "prefer-double"],
     "key-spacing": [
