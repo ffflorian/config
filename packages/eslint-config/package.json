@@ -1,5 +1,8 @@
 {
   "author": "Florian Keller <github@floriankeller.de>",
+  "dependencies": {
+    "eslint-config-prettier": "4.1.0"
+  },
   "description": "@ffflorian's eslint configuration",
   "keywords": [
     "eslint",
