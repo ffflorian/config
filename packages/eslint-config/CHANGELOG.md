@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/ffflorian/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.5...@ffflorian/eslint-config@0.0.6) (2019-04-15)
+
+
+### Bug Fixes
+
+* **eslint-config:** No space before function parens ([69e6aaf](https://github.com/ffflorian/tree/master/packages/eslint-config/commit/69e6aaf))
+
+
+
+
+
 ## [0.0.5](https://github.com/ffflorian/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.4...@ffflorian/eslint-config@0.0.5) (2019-04-15)
 
 
