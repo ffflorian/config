@@ -1,0 +1,20 @@
+{
+  "author": "Florian Keller <github@floriankeller.de>",
+  "dependencies": {
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.0.1"
+  },
+  "description": "@ffflorian's TSLint configuration",
+  "keywords": [
+    "tslint",
+    "tslintconfig"
+  ],
+  "license": "MIT",
+  "main": "index.json",
+  "name": "@ffflorian/tslint-config",
+  "peerDependencies": {
+    "tslint": ">= 5.0.0"
+  },
+  "repository": "https://github.com/ffflorian/tree/master/packages/tslint-config",
+  "version": "0.0.1"
+}
