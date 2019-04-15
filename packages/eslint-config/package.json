@@ -1,0 +1,12 @@
+{
+  "author": "Florian Keller <github@floriankeller.de>",
+  "description": "@ffflorian's eslint configuration",
+  "license": "MIT",
+  "main": "index.json",
+  "name": "@ffflorian/eslint-config",
+  "peerDependencies": {
+    "eslint": ">= 3.0.0"
+  },
+  "repository": "https://github.com/ffflorian/tree/master/packages/eslint-config",
+  "version": "0.0.1"
+}

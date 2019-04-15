@@ -1,8 +1,12 @@
 {
+  "author": "Florian Keller <github@floriankeller.de>",
   "description": "@ffflorian's prettier configuration",
   "license": "MIT",
-  "main": ".prettierrc.json",
+  "main": "index.json",
   "name": "@ffflorian/prettier-config",
-  "repository": "https://github.com/ffflorian/prettier-config",
-  "version": "0.1.0"
+  "peerDependencies": {
+    "prettier": ">= 1.17.0"
+  },
+  "repository": "https://github.com/ffflorian/tree/master/packages/prettier-config",
+  "version": "0.0.1"
 }

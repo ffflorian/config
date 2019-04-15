@@ -1,0 +1,12 @@
+{
+  "author": "Florian Keller <github@floriankeller.de>",
+  "description": "@ffflorian's TypeScript configuration",
+  "license": "MIT",
+  "main": "index.json",
+  "name": "@ffflorian/typescript-config",
+  "peerDependencies": {
+    "typescript": ">= 2.1.0"
+  },
+  "repository": "https://github.com/ffflorian/tree/master/packages/typescript-config",
+  "version": "0.0.1"
+}
