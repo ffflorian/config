@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.7](https://github.com/ffflorian/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.6...@ffflorian/eslint-config@0.0.7) (2019-04-26)
+
+**Note:** Version bump only for package @ffflorian/eslint-config
+
+
+
+
+
 ## [0.0.6](https://github.com/ffflorian/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.5...@ffflorian/eslint-config@0.0.6) (2019-04-15)
 
 
