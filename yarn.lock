@@ -9,11 +9,6 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@ffflorian/prettier-config@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@ffflorian/prettier-config/-/prettier-config-0.0.2.tgz#d0873b5862987c8afb9c525b8b48534c4dff2729"
-  integrity sha512-Q7Lax9Z9hIyE37c/DARRHY3g147YJJk3nf/WyQz10otGxU4EqxjhWOiVseIiBQc1N4q5SoStFrxKROMzHd5kEg==
-
 "@lerna/add@3.13.3":
   version "3.13.3"
   resolved "https://registry.yarnpkg.com/@lerna/add/-/add-3.13.3.tgz#f4c1674839780e458f0426d4f7b6d0a77b9a2ae9"
