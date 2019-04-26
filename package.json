@@ -2,7 +2,6 @@
   "author": "Florian Keller <github@floriankeller.de>",
   "description": "My personal configuration files",
   "devDependencies": {
-    "@ffflorian/prettier-config": "0.0.2",
     "husky": "2.1.0",
     "lerna": "3.13.4",
     "lint-staged": "8.1.5",
@@ -15,7 +14,7 @@
     ]
   },
   "private": true,
-  "prettier": "@ffflorian/prettier-config",
+  "prettier": "./packages/prettier-config/index.json",
   "scripts": {
     "boot": "lerna bootstrap --reject-cycles",
     "fix": "yarn prettier --write",
