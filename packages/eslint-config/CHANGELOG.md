@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/ffflorian/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.7...@ffflorian/eslint-config@0.1.0) (2019-05-01)
+
+
+### Features
+
+* Move dependencies to peerDependencies ([c60357e](https://github.com/ffflorian/tree/master/packages/eslint-config/commit/c60357e))
+
+
+
+
+
 ## [0.0.7](https://github.com/ffflorian/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.6...@ffflorian/eslint-config@0.0.7) (2019-04-26)
 
 **Note:** Version bump only for package @ffflorian/eslint-config
