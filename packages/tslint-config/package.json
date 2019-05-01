@@ -1,6 +1,5 @@
 {
   "author": "Florian Keller <github@floriankeller.de>",
-  "dependencies": {},
   "description": "@ffflorian's TSLint configuration",
   "keywords": [
     "tslint",
@@ -15,5 +14,5 @@
     "tslint-plugin-prettier": ">= 2"
   },
   "repository": "https://github.com/ffflorian/tree/master/packages/tslint-config",
-  "version": "0.0.3"
+  "version": "0.1.0"
 }

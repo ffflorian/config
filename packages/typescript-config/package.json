@@ -1,6 +1,5 @@
 {
   "author": "Florian Keller <github@floriankeller.de>",
-  "dependencies": {},
   "description": "@ffflorian's TypeScript configuration",
   "keywords": [
     "typescript",
@@ -14,5 +13,5 @@
     "typescript": ">= 2.1.0"
   },
   "repository": "https://github.com/ffflorian/tree/master/packages/typescript-config",
-  "version": "0.0.3"
+  "version": "0.1.0"
 }
