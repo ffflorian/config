@@ -1,8 +1,6 @@
 {
   "author": "Florian Keller <github@floriankeller.de>",
-  "dependencies": {
-    "eslint-config-prettier": "4.2.0"
-  },
+  "dependencies": {},
   "description": "@ffflorian's eslint configuration",
   "keywords": [
     "eslint",
@@ -12,7 +10,8 @@
   "main": ".eslintrc.json",
   "name": "@ffflorian/eslint-config",
   "peerDependencies": {
-    "eslint": ">= 3.0.0"
+    "eslint": ">= 3",
+    "eslint-config-prettier": ">= 4"
   },
   "repository": "https://github.com/ffflorian/tree/master/packages/eslint-config",
   "version": "0.0.7"

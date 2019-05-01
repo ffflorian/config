@@ -1,5 +1,6 @@
 {
   "author": "Florian Keller <github@floriankeller.de>",
+  "dependencies": {},
   "description": "@ffflorian's TypeScript configuration",
   "keywords": [
     "typescript",
