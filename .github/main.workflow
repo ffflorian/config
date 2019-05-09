@@ -7,8 +7,7 @@ workflow "Lint and publish" {
 }
 
 action "Don't skip CI" {
-  uses = "ffflorian/actions/last_commit@master"
-  args = "^(?:(?!\\[(ci skip|skip ci)\\]).)*$"
+  uses = "ffflorian/actions/skip-ci-check@master"
 }
 
 action "Install dependencies" {
