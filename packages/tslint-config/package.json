@@ -14,5 +14,5 @@
     "tslint-plugin-prettier": ">= 2"
   },
   "repository": "https://github.com/ffflorian/tree/master/packages/tslint-config",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
