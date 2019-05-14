@@ -8,7 +8,9 @@
     "array-type": [true, "array-simple"],
     "ban-comma-operator": true,
     "curly": true,
+    "encoding": true,
     "jsdoc-format": [true, "check-multiline-start"],
+    "linebreak-style": [true, "LF"],
     "no-duplicate-imports": true,
     "no-duplicate-switch-case": true,
     "no-duplicate-variable": [true, "check-parameters"],
@@ -31,6 +33,7 @@
     "prefer-readonly": true,
     "prefer-template": true,
     "prettier": true,
-    "space-within-parens": [true, 0]
+    "space-within-parens": [true, 0],
+    "typedef": true
   }
 }
