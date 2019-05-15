@@ -12,6 +12,6 @@
     "eslint": ">= 3",
     "eslint-config-prettier": ">= 4"
   },
-  "repository": "https://github.com/ffflorian/tree/master/packages/eslint-config",
+  "repository": "https://github.com/ffflorian/config/tree/master/packages/eslint-config",
   "version": "0.1.0"
 }

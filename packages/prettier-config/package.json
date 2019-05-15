@@ -11,6 +11,6 @@
   "peerDependencies": {
     "prettier": ">= 1.17.0"
   },
-  "repository": "https://github.com/ffflorian/tree/master/packages/prettier-config",
+  "repository": "https://github.com/ffflorian/config/tree/master/packages/prettier-config",
   "version": "0.0.3"
 }
