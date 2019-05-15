@@ -7,7 +7,10 @@
 **Install**:
 
 ```
-yarn add -D @ffflorian/tslint-config
+yarn add -D @ffflorian/tslint-config \
+            tslint \
+            tslint-config-prettier \
+            tslint-plugin-prettier
 ```
 
 **Edit `tslint.json`**:

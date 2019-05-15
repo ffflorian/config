@@ -7,7 +7,9 @@
 **Install**:
 
 ```
-yarn add -D @ffflorian/eslint-config
+yarn add -D @ffflorian/eslint-config \
+            eslint \
+            eslint-config-prettier
 ```
 
 **Edit `.eslintrc.json`**:

@@ -7,7 +7,8 @@
 **Install**:
 
 ```
-yarn add -D @ffflorian/prettier-config
+yarn add -D @ffflorian/prettier-config \
+            prettier
 ```
 
 **Edit `package.json`**:
