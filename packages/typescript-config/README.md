@@ -1,4 +1,4 @@
-## @ffflorian/typescript-config [![npm version](https://img.shields.io/npm/v/@ffflorian/eslint-config.svg)](https://npmjs.com/package/@ffflorian/eslint-config)
+## @ffflorian/typescript-config [![npm version](https://img.shields.io/npm/v/@ffflorian/typescript-config.svg)](https://npmjs.com/package/@ffflorian/typescript-config)
 
 > My personal [TypeScript](https://www.typescriptlang.org) configuration.
 

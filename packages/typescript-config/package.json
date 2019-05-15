@@ -12,6 +12,6 @@
   "peerDependencies": {
     "typescript": ">= 2.1.0"
   },
-  "repository": "https://github.com/ffflorian/tree/master/packages/typescript-config",
+  "repository": "https://github.com/ffflorian/config/tree/master/packages/typescript-config",
   "version": "0.1.0"
 }
