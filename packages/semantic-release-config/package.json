@@ -13,7 +13,7 @@
     "@semantic-release/git": ">= 7.0.0",
     "@semantic-release/npm": ">= 5.1.0",
     "publish-flat": ">= 1.1.0",
-    "semantic-release": "15.13.0"
+    "semantic-release": ">= 15.13.0"
   },
   "repository": "https://github.com/ffflorian/config/tree/master/packages/semantic-release-config",
   "version": "0.1.0"
