@@ -16,5 +16,5 @@
     "semantic-release": ">= 15.13.0"
   },
   "repository": "https://github.com/ffflorian/config/tree/master/packages/semantic-release-config",
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
