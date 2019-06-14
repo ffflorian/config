@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/ffflorian/config/tree/master/packages/semantic-release-config/compare/@ffflorian/semantic-release-config@0.1.1...@ffflorian/semantic-release-config@0.1.2) (2019-06-14)
+
+**Note:** Version bump only for package @ffflorian/semantic-release-config
+
+
+
+
+
 ## [0.1.1](https://github.com/ffflorian/config/tree/master/packages/semantic-release-config/compare/@ffflorian/semantic-release-config@0.1.0...@ffflorian/semantic-release-config@0.1.1) (2019-06-14)
 
 
