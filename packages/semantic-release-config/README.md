@@ -1,6 +1,6 @@
 ## @ffflorian/semantic-release-config [![npm version](https://img.shields.io/npm/v/@ffflorian/semantic-release-config.svg)](https://npmjs.com/package/@ffflorian/semantic-release-config)
 
-> My personal [semantic-release](https://semantic-release.io) configuration.
+> My personal [semantic-release](https://semantic-release.gitbook.io/) configuration.
 
 ### Usage
 
