@@ -8,7 +8,10 @@
 
 ```
 yarn add -D @ffflorian/semantic-release-config \
-            semantic-release
+            semantic-release \
+            @semantic-release/changelog \
+            @semantic-release/git \
+            @semantic-release/npm
 ```
 
 **Edit `package.json`**:
