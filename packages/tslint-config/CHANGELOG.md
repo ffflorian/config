@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/ffflorian/config/tree/master/packages/tslint-config/compare/@ffflorian/tslint-config@0.2.2...@ffflorian/tslint-config@0.3.0) (2019-06-21)
+
+
+### Features
+
+* **eslint-config,tslint-config:** Disallow trailing whitespace ([#23](https://github.com/ffflorian/config/tree/master/packages/tslint-config/issues/23)) ([b816fe1](https://github.com/ffflorian/config/tree/master/packages/tslint-config/commit/b816fe1))
+
+
+
+
+
 ## [0.2.2](https://github.com/ffflorian/config/tree/master/packages/tslint-config/compare/@ffflorian/tslint-config@0.2.1...@ffflorian/tslint-config@0.2.2) (2019-05-23)
 
 **Note:** Version bump only for package @ffflorian/tslint-config
