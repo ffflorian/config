@@ -21,6 +21,7 @@
     "no-inner-declarations": "error",
     "no-lonely-if": "error",
     "no-shadow": "error",
+    "no-trailing-spaces": "error",
     "no-undef": "error",
     "no-unneeded-ternary": "error",
     "no-unused-expressions": "error",
