@@ -6,11 +6,11 @@
     "eslintconfig"
   ],
   "license": "MIT",
-  "main": ".eslintrc.json",
+  "main": "index.json",
   "name": "@ffflorian/eslint-config",
   "peerDependencies": {
-    "eslint": ">= 3",
-    "eslint-config-prettier": ">= 4"
+    "eslint": ">= 3.0.0",
+    "eslint-config-prettier": ">= 4.0.0"
   },
   "repository": "https://github.com/ffflorian/config/tree/master/packages/eslint-config",
   "version": "0.1.2"
