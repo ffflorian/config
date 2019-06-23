@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/ffflorian/config/tree/master/packages/tslint-config/compare/@ffflorian/tslint-config@0.3.0...@ffflorian/tslint-config@0.3.1) (2019-06-23)
+
+
+### Bug Fixes
+
+* **tslint-config:** Ignore case for object sort ([8597835](https://github.com/ffflorian/config/tree/master/packages/tslint-config/commit/8597835))
+
+
+
+
+
 # [0.3.0](https://github.com/ffflorian/config/tree/master/packages/tslint-config/compare/@ffflorian/tslint-config@0.2.2...@ffflorian/tslint-config@0.3.0) (2019-06-21)
 
 
