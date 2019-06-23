@@ -21,7 +21,7 @@
     "no-sparse-arrays": true,
     "no-this-assignment": true,
     "no-trailing-whitespace": true,
-    "object-literal-sort-keys": true,
+    "object-literal-sort-keys": [true, "ignore-case"],
     "ordered-imports": [
       true,
       {
