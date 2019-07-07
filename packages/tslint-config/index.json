@@ -11,6 +11,13 @@
     "encoding": true,
     "jsdoc-format": [true, "check-multiline-start"],
     "linebreak-style": [true, "LF"],
+    "member-ordering": [
+      true,
+      {
+        "order": "statics-first"
+      }
+    ],
+    "no-default-export": true,
     "no-duplicate-imports": true,
     "no-duplicate-switch-case": true,
     "no-duplicate-variable": [true, "check-parameters"],
@@ -35,6 +42,6 @@
     "prefer-template": true,
     "prettier": true,
     "space-within-parens": [true, 0],
-    "typedef": true
+    "typedef": [true, "call-signature"]
   }
 }
