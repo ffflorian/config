@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/ffflorian/config/tree/master/packages/typescript-config/compare/@ffflorian/typescript-config@0.1.1...@ffflorian/typescript-config@1.0.0) (2019-07-17)
+
+
+### chore
+
+* Use ES6 ([#35](https://github.com/ffflorian/config/tree/master/packages/typescript-config/issues/35)) ([8ce5d3f](https://github.com/ffflorian/config/tree/master/packages/typescript-config/commit/8ce5d3f))
+
+
+### BREAKING CHANGES
+
+* Node.js >= 10.9 is required.
+
+
+
+
+
 ## [0.1.1](https://github.com/ffflorian/config/tree/master/packages/typescript-config/compare/@ffflorian/typescript-config@0.1.0...@ffflorian/typescript-config@0.1.1) (2019-05-15)
 
 **Note:** Version bump only for package @ffflorian/typescript-config
