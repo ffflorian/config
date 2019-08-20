@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/ffflorian/config/tree/master/packages/tslint-config/compare/@ffflorian/tslint-config@0.5.0...@ffflorian/tslint-config@0.6.0) (2019-08-20)
+
+
+### Features
+
+* **tslint:** Use ESLint ([#46](https://github.com/ffflorian/config/tree/master/packages/tslint-config/issues/46)) ([a2132e2](https://github.com/ffflorian/config/tree/master/packages/tslint-config/commit/a2132e2))
+
+
+
+
+
 # [0.5.0](https://github.com/ffflorian/config/tree/master/packages/tslint-config/compare/@ffflorian/tslint-config@0.4.0...@ffflorian/tslint-config@0.5.0) (2019-07-25)
 
 
