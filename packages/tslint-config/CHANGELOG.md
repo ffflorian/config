@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/ffflorian/config/tree/master/packages/tslint-config/compare/@ffflorian/tslint-config@0.6.0...@ffflorian/tslint-config@0.6.1) (2019-08-20)
+
+
+### Bug Fixes
+
+* **tslint-config:** Add peer dependencies for typescript-eslint ([e55ba67](https://github.com/ffflorian/config/tree/master/packages/tslint-config/commit/e55ba67))
+
+
+
+
+
 # [0.6.0](https://github.com/ffflorian/config/tree/master/packages/tslint-config/compare/@ffflorian/tslint-config@0.5.0...@ffflorian/tslint-config@0.6.0) (2019-08-20)
 
 
