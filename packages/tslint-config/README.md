@@ -10,7 +10,10 @@
 yarn add -D @ffflorian/tslint-config \
             eslint \
             eslint-config-prettier \
-            eslint-plugin-prettier
+            eslint-plugin-prettier \
+            @typescript-eslint/eslint-plugin \
+            @typescript-eslint/eslint-plugin-tslint
+            @typescript-eslint/parser \
 ```
 
 **Edit `.eslintrc.json`**:
