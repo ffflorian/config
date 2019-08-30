@@ -20,8 +20,6 @@ jobs:
           yarn
           yarn boot
           yarn lint
-          yarn dist
-          yarn test
         if: |
           contains(github.event.commits[0].message, '[skip ci]') == false &&
           contains(github.event.commits[0].message, '[ci skip]') == false

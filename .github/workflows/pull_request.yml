@@ -17,8 +17,6 @@ jobs:
           yarn
           yarn boot
           yarn lint
-          yarn dist
-          yarn test
         env:
           NODE_ENV: development
         if: |
