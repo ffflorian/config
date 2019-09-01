@@ -29,6 +29,7 @@ jobs:
           git config --global "user.name" "${GIT_NAME}"
           REPO_URL="$(git remote get-url origin | sed -n "s/https:\/\/github.com\//https:\/\/${GIT_AUTHOR_NAME}:${GH_TOKEN}@github.com\//p")"
           git remote set-url origin "${REPO_URL}"
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> "${HOME}/.npmrc"
           git checkout master
           yarn release
         env:
@@ -41,5 +42,4 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         if: |
           contains(github.event.commits[0].message, '[skip ci]') == false &&
-          contains(github.event.commits[0].message, '[ci skip]') == false &&
-          startsWith(github.event.commits[0].message, 'chore') == false
+          contains(github.event.commits[0].message, '[ci skip]') == false
