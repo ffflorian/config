@@ -1,55 +1,48 @@
 {
-  "env": {
-    "browser": true,
-    "es6": true
+  "$schema": "http://json.schemastore.org/tslint",
+  "extends": ["tslint-config-prettier", "tslint-plugin-prettier"],
+  "linterOptions": {
+    "exclude": ["dist/**", "node_modules/**"]
   },
-  "extends": ["eslint-config-prettier"],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "tsconfig.json",
-    "sourceType": "module"
-  },
-  "plugins": ["@typescript-eslint", "@typescript-eslint/tslint", "eslint-plugin-prettier"],
   "rules": {
-    "@typescript-eslint/array-type": "error",
-    "@typescript-eslint/member-ordering": "error",
-    "@typescript-eslint/no-object-literal-type-assertion": "error",
-    "@typescript-eslint/no-this-alias": "error",
-    "@typescript-eslint/tslint/config": [
-      "error",
+    "array-type": [true, "array-simple"],
+    "ban-comma-operator": true,
+    "curly": true,
+    "encoding": true,
+    "jsdoc-format": [true, "check-multiline-start"],
+    "linebreak-style": [true, "LF"],
+    "member-ordering": [
+      true,
       {
-        "rules": {
-          "encoding": true,
-          "jsdoc-format": [true, "check-multiline-start"],
-          "no-default-export": true,
-          "no-duplicate-imports": true,
-          "no-duplicate-variable": [true, "check-parameters"],
-          "no-floating-promises": true,
-          "no-trailing-whitespace": true,
-          "object-literal-sort-keys": [true, "ignore-case"],
-          "ordered-imports": [
-            true,
-            {
-              "named-imports-order": "lowercase-last"
-            }
-          ],
-          "prefer-conditional-expression": true,
-          "prefer-readonly": true,
-          "prettier": true,
-          "space-within-parens": [true, 0],
-          "typedef": [true, "call-signature"]
-        }
+        "alphabetize": true,
+        "order": "statics-first"
       }
     ],
-    "curly": "error",
-    "linebreak-style": ["error", "unix"],
-    "no-duplicate-case": "error",
-    "no-return-await": "error",
-    "no-sequences": "error",
-    "no-sparse-arrays": "error",
-    "no-template-curly-in-string": "error",
-    "prefer-const": "error",
-    "prefer-object-spread": "error",
-    "prefer-template": "error"
+    "no-default-export": true,
+    "no-duplicate-imports": true,
+    "no-duplicate-switch-case": true,
+    "no-duplicate-variable": [true, "check-parameters"],
+    "no-floating-promises": true,
+    "no-invalid-template-strings": true,
+    "no-object-literal-type-assertion": true,
+    "no-return-await": true,
+    "no-sparse-arrays": true,
+    "no-this-assignment": true,
+    "no-trailing-whitespace": true,
+    "object-literal-sort-keys": [true, "ignore-case"],
+    "ordered-imports": [
+      true,
+      {
+        "named-imports-order": "lowercase-last"
+      }
+    ],
+    "prefer-conditional-expression": true,
+    "prefer-const": true,
+    "prefer-object-spread": true,
+    "prefer-readonly": true,
+    "prefer-template": true,
+    "prettier": true,
+    "space-within-parens": [true, 0],
+    "typedef": [true, "call-signature"]
   }
 }
