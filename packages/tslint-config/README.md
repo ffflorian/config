@@ -1,6 +1,6 @@
 ## @ffflorian/tslint-config [![npm version](https://img.shields.io/npm/v/@ffflorian/tslint-config.svg)](https://npmjs.com/package/@ffflorian/tslint-config)
 
-> My personal [TSLint](https://typescript-eslint.io/) configuration.
+> My personal [TSLint](https://palantir.github.io/tslint/) configuration.
 
 ### Usage
 
@@ -8,15 +8,12 @@
 
 ```
 yarn add -D @ffflorian/tslint-config \
-            eslint \
-            eslint-config-prettier \
-            eslint-plugin-prettier \
-            @typescript-eslint/eslint-plugin \
-            @typescript-eslint/eslint-plugin-tslint
-            @typescript-eslint/parser \
+            tslint \
+            tslint-config-prettier \
+            tslint-plugin-prettier
 ```
 
-**Edit `.eslintrc.json`**:
+**Edit `tslint.json`**:
 
 ```jsonc
 {
