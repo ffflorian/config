@@ -5,7 +5,7 @@
     "prettier",
     "prettierconfig"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0",
   "main": "index.json",
   "name": "@ffflorian/prettier-config",
   "peerDependencies": {

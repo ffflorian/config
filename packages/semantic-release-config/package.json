@@ -5,7 +5,7 @@
     "semantic-release",
     "semantic-release-config"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0",
   "main": "index.json",
   "name": "@ffflorian/semantic-release-config",
   "peerDependencies": {
