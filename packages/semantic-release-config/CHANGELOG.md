@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/ffflorian/config/tree/master/packages/semantic-release-config/compare/@ffflorian/semantic-release-config@0.1.4...@ffflorian/semantic-release-config@0.2.0) (2020-01-03)
+
+
+### Features
+
+* **semantic-release-config:** Add skip-checks ([b691596](https://github.com/ffflorian/config/tree/master/packages/semantic-release-config/commit/b691596))
+
+
+
+
+
 ## [0.1.4](https://github.com/ffflorian/config/tree/master/packages/semantic-release-config/compare/@ffflorian/semantic-release-config@0.1.3...@ffflorian/semantic-release-config@0.1.4) (2019-09-13)
 
 **Note:** Version bump only for package @ffflorian/semantic-release-config

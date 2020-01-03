@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.1](https://github.com/ffflorian/config/tree/master/packages/tslint-config/compare/@ffflorian/tslint-config@0.7.0...@ffflorian/tslint-config@0.7.1) (2020-01-03)
+
+**Note:** Version bump only for package @ffflorian/tslint-config
+
+
+
+
+
 # [0.7.0](https://github.com/ffflorian/config/tree/master/packages/tslint-config/compare/@ffflorian/tslint-config@0.6.1...@ffflorian/tslint-config@0.7.0) (2019-09-01)
 
 
