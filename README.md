@@ -1,4 +1,4 @@
-## config [![Build Status](https://action-badges.now.sh/ffflorian/config)](https://github.com/ffflorian/config/actions/) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=ffflorian/config)](https://dependabot.com)
+## config [![Build Status](https://github.com/ffflorian/config/workflows/Build/badge.svg)](https://github.com/ffflorian/config/actions/) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=ffflorian/config)](https://dependabot.com)
 
 My personal configuration files
 
