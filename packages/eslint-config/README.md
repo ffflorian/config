@@ -9,7 +9,15 @@
 ```
 yarn add -D @ffflorian/eslint-config \
             eslint \
-            eslint-config-prettier
+            eslint-config-prettier \
+            eslint-plugin-import \
+            eslint-plugin-jasmine \
+            eslint-plugin-jsdoc \
+            eslint-plugin-no-unsanitized \
+            eslint-plugin-prettier \
+            eslint-plugin-simple-import-sort \
+            eslint-plugin-sort-keys-fix \
+            eslint-plugin-typescript-sort-keys \
 ```
 
 **Edit `.eslintrc.json`**:
