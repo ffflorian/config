@@ -29,7 +29,7 @@
   "plugins": ["@typescript-eslint", "jsdoc", "no-unsanitized", "prettier", "sort-keys-fix", "typescript-sort-keys"],
   "rules": {
     "curly": "error",
-    "id-length": "error",
+    "id-length": ["error", {"exceptions": ["_"]}],
     "constructor-super": "error",
     "no-console": [
       "error",
