@@ -38,7 +38,6 @@
       }
     ],
     "no-const-assign": "error",
-    "no-dupe-class-members": "error",
     "no-duplicate-case": "error",
     "no-else-return": "error",
     "no-inner-declarations": "error",
