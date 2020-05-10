@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.3](https://github.com/ffflorian/config/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.3.2...@ffflorian/eslint-config@0.3.3) (2020-05-10)
+
+
+### Bug Fixes
+
+* **eslint-config:** Add _ as valid parameter name ([fd67d5e](https://github.com/ffflorian/config/tree/master/packages/eslint-config/commit/fd67d5e))
+
+
+
+
+
 ## [0.3.2](https://github.com/ffflorian/config/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.3.1...@ffflorian/eslint-config@0.3.2) (2020-05-10)
 
 
