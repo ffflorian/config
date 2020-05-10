@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/ffflorian/config/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.2.1...@ffflorian/eslint-config@0.3.0) (2020-05-10)
+
+
+### Features
+
+* **eslint-config:** Add TypeScript config ([#107](https://github.com/ffflorian/config/tree/master/packages/eslint-config/issues/107)) ([c039f31](https://github.com/ffflorian/config/tree/master/packages/eslint-config/commit/c039f31))
+
+
+
+
+
 ## [0.2.1](https://github.com/ffflorian/config/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.2.0...@ffflorian/eslint-config@0.2.1) (2020-01-03)
 
 **Note:** Version bump only for package @ffflorian/eslint-config
