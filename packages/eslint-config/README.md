@@ -8,6 +8,9 @@
 
 ```
 yarn add -D @ffflorian/eslint-config \
+            @typescript-eslint/eslint-plugin \
+            @typescript-eslint/parser \
+            babel-eslint \
             eslint \
             eslint-config-prettier \
             eslint-plugin-import \
