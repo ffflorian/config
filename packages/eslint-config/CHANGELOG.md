@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/ffflorian/config/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.3.3...@ffflorian/eslint-config@0.4.0) (2020-05-13)
+
+
+### Features
+
+* **eslint-config:** Add quotes rule ([0090f70](https://github.com/ffflorian/config/tree/master/packages/eslint-config/commit/0090f70))
+
+
+
+
+
 ## [0.3.3](https://github.com/ffflorian/config/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.3.2...@ffflorian/eslint-config@0.3.3) (2020-05-10)
 
 
