@@ -65,6 +65,7 @@
     "prefer-spread": "error",
     "prefer-template": "error",
     "prettier/prettier": "error",
+    "quotes": ["error", "single", {"avoidEscape": true}],
     "sort-keys-fix/sort-keys-fix": "error",
     "sort-vars": "error",
     "strict": ["error", "global"],
