@@ -23,14 +23,19 @@
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 11,
-    "sourceType": "module",
-    "project": "tsconfig.json"
+    "project": "tsconfig.json",
+    "sourceType": "module"
   },
   "plugins": ["@typescript-eslint", "jsdoc", "no-unsanitized", "prettier", "sort-keys-fix", "typescript-sort-keys"],
   "rules": {
-    "curly": "error",
-    "id-length": ["error", {"exceptions": ["_"]}],
     "constructor-super": "error",
+    "curly": "error",
+    "id-length": [
+      "error",
+      {
+        "exceptions": ["_"]
+      }
+    ],
     "no-console": [
       "error",
       {
@@ -65,12 +70,30 @@
     "prefer-spread": "error",
     "prefer-template": "error",
     "prettier/prettier": "error",
-    "quotes": ["error", "single", {"avoidEscape": true}],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
     "sort-keys-fix/sort-keys-fix": "error",
     "sort-vars": "error",
     "strict": ["error", "global"],
-    "typescript-sort-keys/interface": ["warn", "asc", {"caseSensitive": false}],
-    "typescript-sort-keys/string-enum": ["warn", "asc", {"caseSensitive": false}],
+    "typescript-sort-keys/interface": [
+      "warn",
+      "asc",
+      {
+        "caseSensitive": false
+      }
+    ],
+    "typescript-sort-keys/string-enum": [
+      "warn",
+      "asc",
+      {
+        "caseSensitive": false
+      }
+    ],
     "valid-jsdoc": [
       "error",
       {
@@ -81,8 +104,8 @@
         "preferType": {
           "Boolean": "boolean",
           "Number": "number",
-          "object": "Object",
-          "String": "string"
+          "String": "string",
+          "object": "Object"
         },
         "requireParamDescription": true,
         "requireReturnDescription": true
