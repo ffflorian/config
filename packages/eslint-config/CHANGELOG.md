@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/ffflorian/config/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.4.1...@ffflorian/eslint-config@0.5.0) (2020-05-15)
+
+
+### Features
+
+* **eslint:** Add no-inferrable-types, use simple array style ([107387f](https://github.com/ffflorian/config/tree/master/packages/eslint-config/commit/107387f))
+
+
+
+
+
 ## [0.4.1](https://github.com/ffflorian/config/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.4.0...@ffflorian/eslint-config@0.4.1) (2020-05-14)
 
 
