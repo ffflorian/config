@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/ffflorian/config/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.5.0...@ffflorian/eslint-config@0.5.1) (2020-05-17)
+
+
+### Bug Fixes
+
+* **eslint-config:** Array-type default ([8929ad9](https://github.com/ffflorian/config/tree/master/packages/eslint-config/commit/8929ad9))
+
+
+
+
+
 # [0.5.0](https://github.com/ffflorian/config/tree/master/packages/eslint-config/compare/@ffflorian/eslint-config@0.4.1...@ffflorian/eslint-config@0.5.0) (2020-05-15)
 
 
