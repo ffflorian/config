@@ -10,7 +10,7 @@
       "files": "*.ts",
       "parser": "@typescript-eslint/parser",
       "rules": {
-        "@typescript-eslint/array-type": ["error", "array-simple"],
+        "@typescript-eslint/array-type": ["error", {"default": "array-simple"}],
         "@typescript-eslint/consistent-type-assertions": "error",
         "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-inferrable-types": ["error", {"ignoreParameters": true}],
