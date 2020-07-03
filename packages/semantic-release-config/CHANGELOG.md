@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/ffflorian/config/tree/main/packages/semantic-release-config/compare/@ffflorian/semantic-release-config@0.2.1...@ffflorian/semantic-release-config@0.3.0) (2020-07-03)
+
+
+### Features
+
+* Switch to new main branch ([f841d3e](https://github.com/ffflorian/config/tree/main/packages/semantic-release-config/commit/f841d3e))
+
+
+
+
+
 ## [0.2.1](https://github.com/ffflorian/config/tree/main/packages/semantic-release-config/compare/@ffflorian/semantic-release-config@0.2.0...@ffflorian/semantic-release-config@0.2.1) (2020-05-10)
 
 **Note:** Version bump only for package @ffflorian/semantic-release-config
