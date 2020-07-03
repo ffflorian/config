@@ -23,6 +23,6 @@
     "eslint-plugin-sort-keys-fix": ">= 1.1.0",
     "eslint-plugin-typescript-sort-keys": ">= 0.8.0"
   },
-  "repository": "https://github.com/ffflorian/config/tree/master/packages/eslint-config",
+  "repository": "https://github.com/ffflorian/config/tree/main/packages/eslint-config",
   "version": "0.5.1"
 }

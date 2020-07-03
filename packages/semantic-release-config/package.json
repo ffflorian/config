@@ -14,6 +14,6 @@
     "publish-flat": ">= 1.1.0",
     "semantic-release": ">= 15.13.0"
   },
-  "repository": "https://github.com/ffflorian/config/tree/master/packages/semantic-release-config",
+  "repository": "https://github.com/ffflorian/config/tree/main/packages/semantic-release-config",
   "version": "0.2.1"
 }
