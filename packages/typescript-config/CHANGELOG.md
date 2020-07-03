@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.0.1](https://github.com/ffflorian/config/tree/master/packages/typescript-config/compare/@ffflorian/typescript-config@1.0.0...@ffflorian/typescript-config@1.0.1) (2020-01-03)
+## [1.0.1](https://github.com/ffflorian/config/tree/main/packages/typescript-config/compare/@ffflorian/typescript-config@1.0.0...@ffflorian/typescript-config@1.0.1) (2020-01-03)
 
 **Note:** Version bump only for package @ffflorian/typescript-config
 
@@ -11,12 +11,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0](https://github.com/ffflorian/config/tree/master/packages/typescript-config/compare/@ffflorian/typescript-config@0.1.1...@ffflorian/typescript-config@1.0.0) (2019-07-17)
+# [1.0.0](https://github.com/ffflorian/config/tree/main/packages/typescript-config/compare/@ffflorian/typescript-config@0.1.1...@ffflorian/typescript-config@1.0.0) (2019-07-17)
 
 
 ### chore
 
-* Use ES6 ([#35](https://github.com/ffflorian/config/tree/master/packages/typescript-config/issues/35)) ([8ce5d3f](https://github.com/ffflorian/config/tree/master/packages/typescript-config/commit/8ce5d3f))
+* Use ES6 ([#35](https://github.com/ffflorian/config/tree/main/packages/typescript-config/issues/35)) ([8ce5d3f](https://github.com/ffflorian/config/tree/main/packages/typescript-config/commit/8ce5d3f))
 
 
 ### BREAKING CHANGES
@@ -27,7 +27,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.1.1](https://github.com/ffflorian/config/tree/master/packages/typescript-config/compare/@ffflorian/typescript-config@0.1.0...@ffflorian/typescript-config@0.1.1) (2019-05-15)
+## [0.1.1](https://github.com/ffflorian/config/tree/main/packages/typescript-config/compare/@ffflorian/typescript-config@0.1.0...@ffflorian/typescript-config@0.1.1) (2019-05-15)
 
 **Note:** Version bump only for package @ffflorian/typescript-config
 
@@ -35,18 +35,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.1.0](https://github.com/ffflorian/tree/master/packages/typescript-config/compare/@ffflorian/typescript-config@0.0.3...@ffflorian/typescript-config@0.1.0) (2019-05-01)
+# [0.1.0](https://github.com/ffflorian/tree/main/packages/typescript-config/compare/@ffflorian/typescript-config@0.0.3...@ffflorian/typescript-config@0.1.0) (2019-05-01)
 
 
 ### Features
 
-* Move dependencies to peerDependencies ([c60357e](https://github.com/ffflorian/tree/master/packages/typescript-config/commit/c60357e))
+* Move dependencies to peerDependencies ([c60357e](https://github.com/ffflorian/tree/main/packages/typescript-config/commit/c60357e))
 
 
 
 
 
-## [0.0.3](https://github.com/ffflorian/tree/master/packages/typescript-config/compare/@ffflorian/typescript-config@0.0.2...@ffflorian/typescript-config@0.0.3) (2019-04-15)
+## [0.0.3](https://github.com/ffflorian/tree/main/packages/typescript-config/compare/@ffflorian/typescript-config@0.0.2...@ffflorian/typescript-config@0.0.3) (2019-04-15)
 
 **Note:** Version bump only for package @ffflorian/typescript-config
 
