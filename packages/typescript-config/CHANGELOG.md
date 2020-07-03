@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/ffflorian/config/tree/main/packages/typescript-config/compare/@ffflorian/typescript-config@1.0.1...@ffflorian/typescript-config@1.1.0) (2020-07-03)
+
+
+### Features
+
+* Switch to new main branch ([f841d3e](https://github.com/ffflorian/config/tree/main/packages/typescript-config/commit/f841d3e))
+
+
+
+
+
 ## [1.0.1](https://github.com/ffflorian/config/tree/main/packages/typescript-config/compare/@ffflorian/typescript-config@1.0.0...@ffflorian/typescript-config@1.0.1) (2020-01-03)
 
 **Note:** Version bump only for package @ffflorian/typescript-config
