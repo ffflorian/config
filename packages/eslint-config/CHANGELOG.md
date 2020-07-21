@@ -137,18 +137,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.1.0](https://github.com/ffflorian/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.7...@ffflorian/eslint-config@0.1.0) (2019-05-01)
+# [0.1.0](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.7...@ffflorian/eslint-config@0.1.0) (2019-05-01)
 
 
 ### Features
 
-* Move dependencies to peerDependencies ([c60357e](https://github.com/ffflorian/tree/main/packages/eslint-config/commit/c60357e))
+* Move dependencies to peerDependencies ([c60357e](https://github.com/ffflorian/config/tree/main/packages/eslint-config/commit/c60357e))
 
 
 
 
 
-## [0.0.7](https://github.com/ffflorian/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.6...@ffflorian/eslint-config@0.0.7) (2019-04-26)
+## [0.0.7](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.6...@ffflorian/eslint-config@0.0.7) (2019-04-26)
 
 **Note:** Version bump only for package @ffflorian/eslint-config
 
@@ -156,40 +156,40 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.6](https://github.com/ffflorian/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.5...@ffflorian/eslint-config@0.0.6) (2019-04-15)
+## [0.0.6](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.5...@ffflorian/eslint-config@0.0.6) (2019-04-15)
 
 
 ### Bug Fixes
 
-* **eslint-config:** No space before function parens ([69e6aaf](https://github.com/ffflorian/tree/main/packages/eslint-config/commit/69e6aaf))
+* **eslint-config:** No space before function parens ([69e6aaf](https://github.com/ffflorian/config/tree/main/packages/eslint-config/commit/69e6aaf))
 
 
 
 
 
-## [0.0.5](https://github.com/ffflorian/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.4...@ffflorian/eslint-config@0.0.5) (2019-04-15)
-
-
-### Bug Fixes
-
-* **eslint-config:** Extend from prettier ([#3](https://github.com/ffflorian/tree/main/packages/eslint-config/issues/3)) ([a74a37a](https://github.com/ffflorian/tree/main/packages/eslint-config/commit/a74a37a))
-
-
-
-
-
-## [0.0.4](https://github.com/ffflorian/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.3...@ffflorian/eslint-config@0.0.4) (2019-04-15)
+## [0.0.5](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.4...@ffflorian/eslint-config@0.0.5) (2019-04-15)
 
 
 ### Bug Fixes
 
-* **eslint-config:** Rename json file ([7806298](https://github.com/ffflorian/tree/main/packages/eslint-config/commit/7806298))
+* **eslint-config:** Extend from prettier ([#3](https://github.com/ffflorian/config/tree/main/packages/eslint-config/issues/3)) ([a74a37a](https://github.com/ffflorian/config/tree/main/packages/eslint-config/commit/a74a37a))
 
 
 
 
 
-## [0.0.3](https://github.com/ffflorian/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.2...@ffflorian/eslint-config@0.0.3) (2019-04-15)
+## [0.0.4](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.3...@ffflorian/eslint-config@0.0.4) (2019-04-15)
+
+
+### Bug Fixes
+
+* **eslint-config:** Rename json file ([7806298](https://github.com/ffflorian/config/tree/main/packages/eslint-config/commit/7806298))
+
+
+
+
+
+## [0.0.3](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.0.2...@ffflorian/eslint-config@0.0.3) (2019-04-15)
 
 **Note:** Version bump only for package @ffflorian/eslint-config
 
