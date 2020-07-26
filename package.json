@@ -1,5 +1,5 @@
 {
-  "author": "Florian Keller <github@floriankeller.de>",
+  "author": "Florian Keller <git@ffflorian.de>",
   "description": "My personal configuration files",
   "devDependencies": {
     "husky": "4.2.5",
