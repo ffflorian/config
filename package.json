@@ -4,7 +4,7 @@
   "devDependencies": {
     "husky": "4.2.5",
     "lerna": "3.22.1",
-    "lint-staged": "10.2.11",
+    "lint-staged": "10.2.13",
     "prettier": "2.0.5"
   },
   "engines": {
