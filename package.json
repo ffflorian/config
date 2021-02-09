@@ -2,7 +2,7 @@
   "author": "Florian Imdahl <git@ffflorian.de>",
   "description": "My personal configuration files",
   "devDependencies": {
-    "husky": "4.3.8",
+    "husky": "5.0.9",
     "lerna": "3.22.1",
     "lint-staged": "10.5.4",
     "prettier": "2.2.1"
@@ -10,11 +10,6 @@
   "engines": {
     "node": ">= 10.9",
     "yarn": ">= 1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{json,md}": [
