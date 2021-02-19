@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/ffflorian/config/tree/main/packages/semantic-release-config/compare/@ffflorian/semantic-release-config@0.4.0...@ffflorian/semantic-release-config@0.5.0) (2021-02-19)
+
+
+### Features
+
+* **semantic-release-config:** Publish deno files ([8ebafb3](https://github.com/ffflorian/config/tree/main/packages/semantic-release-config/commit/8ebafb3616242165a2d59c0d91f110ffa464ccad))
+
+
+
+
+
 # [0.4.0](https://github.com/ffflorian/config/tree/main/packages/semantic-release-config/compare/@ffflorian/semantic-release-config@0.3.0...@ffflorian/semantic-release-config@0.4.0) (2020-08-11)
 
 
