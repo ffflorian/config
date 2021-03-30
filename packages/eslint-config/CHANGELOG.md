@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.6.2...@ffflorian/eslint-config@0.7.0) (2021-03-30)
+
+
+### Features
+
+* **eslint-config:** Add unused-imports plugin ([1c8ef07](https://github.com/ffflorian/config/tree/main/packages/eslint-config/commit/1c8ef070bb143e7782efefa30fb2c47d83758117))
+
+
+
+
+
 ## [0.6.2](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.6.1...@ffflorian/eslint-config@0.6.2) (2020-08-11)
 
 **Note:** Version bump only for package @ffflorian/eslint-config
