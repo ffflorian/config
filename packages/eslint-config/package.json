@@ -25,5 +25,5 @@
     "eslint-plugin-unused-import": ">= 0.8.0"
   },
   "repository": "https://github.com/ffflorian/config/tree/main/packages/eslint-config",
-  "version": "0.7.1"
+  "version": "0.8.0"
 }
