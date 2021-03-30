@@ -18,7 +18,8 @@
         "@typescript-eslint/no-unused-vars-experimental": "error",
         "@typescript-eslint/prefer-readonly": "error",
         "@typescript-eslint/typedef": "error",
-        "unused-imports/no-unused-imports-ts": "error"
+        "unused-imports/no-unused-imports": "error",
+        "unused-imports/no-unused-vars": ["warn", {"vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_"}]
       }
     }
   ],
