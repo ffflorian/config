@@ -21,6 +21,7 @@ yarn add -D @ffflorian/eslint-config \
             eslint-plugin-simple-import-sort \
             eslint-plugin-sort-keys-fix \
             eslint-plugin-typescript-sort-keys \
+            eslint-plugin-unused-import
 ```
 
 **Edit `.eslintrc.json`**:
