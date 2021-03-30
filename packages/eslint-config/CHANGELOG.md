@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.7.1...@ffflorian/eslint-config@0.8.0) (2021-03-30)
+
+
+### Features
+
+* **eslint-config:** Add no-unused-vars ([91e71c0](https://github.com/ffflorian/config/tree/main/packages/eslint-config/commit/91e71c0ca549d5b8138f8524e8966b140c846e3c))
+
+
+
+
+
 ## [0.7.1](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.7.0...@ffflorian/eslint-config@0.7.1) (2021-03-30)
 
 
