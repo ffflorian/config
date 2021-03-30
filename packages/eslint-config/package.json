@@ -21,7 +21,8 @@
     "eslint-plugin-prettier": ">= 3.1.2",
     "eslint-plugin-simple-import-sort": ">= 5.0.0",
     "eslint-plugin-sort-keys-fix": ">= 1.1.0",
-    "eslint-plugin-typescript-sort-keys": ">= 0.8.0"
+    "eslint-plugin-typescript-sort-keys": ">= 0.8.0",
+    "eslint-plugin-unused-import": ">= 0.8.0"
   },
   "repository": "https://github.com/ffflorian/config/tree/main/packages/eslint-config",
   "version": "0.7.0"
