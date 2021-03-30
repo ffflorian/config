@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.1](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.7.0...@ffflorian/eslint-config@0.7.1) (2021-03-30)
+
+
+### Bug Fixes
+
+* **eslint-config:** Add eslint-plugin-unused-import as peerDependency ([cc3afee](https://github.com/ffflorian/config/tree/main/packages/eslint-config/commit/cc3afee91c00b9c35c2a30ede656d2a1f8ebf910))
+
+
+
+
+
 # [0.7.0](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.6.2...@ffflorian/eslint-config@0.7.0) (2021-03-30)
 
 
