@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.1](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.8.0...@ffflorian/eslint-config@0.8.1) (2021-03-31)
+
+
+### Bug Fixes
+
+* **eslint-config:** Correct dependency name ([0dbba9d](https://github.com/ffflorian/config/tree/main/packages/eslint-config/commit/0dbba9dbd7706e661b1edaa93a8c9ea9122f0000))
+
+
+
+
+
 # [0.8.0](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.7.1...@ffflorian/eslint-config@0.8.0) (2021-03-30)
 
 
