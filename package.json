@@ -5,7 +5,7 @@
     "husky": "4.3.8",
     "lerna": "4.0.0",
     "lint-staged": "11.2.6",
-    "prettier": "2.4.1"
+    "prettier": "2.5.1"
   },
   "engines": {
     "node": ">= 10.9",
