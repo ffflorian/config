@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.8.2 (2022-04-27)
+
+
+### Bug Fixes
+
+* **eslint-config:** Use @typescript-eslint/no-unused-vars ([8c8623b](https://github.com/ffflorian/config/tree/main/packages/eslint-config/commit/8c8623b724999980c6519d38db2f355240de4260))
+
+
+
+
+
 ## [0.8.1](https://github.com/ffflorian/config/tree/main/packages/eslint-config/compare/@ffflorian/eslint-config@0.8.0...@ffflorian/eslint-config@0.8.1) (2021-03-31)
 
 
