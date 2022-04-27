@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.3 (2022-04-27)
+
+
+### Bug Fixes
+
+* **eslint-config:** Use @typescript-eslint/no-unused-vars ([8c8623b](https://github.com/ffflorian/config/tree/main/packages/prettier-config/commit/8c8623b724999980c6519d38db2f355240de4260))
+
+
+
+
+
 ## [0.1.2](https://github.com/ffflorian/config/tree/main/packages/prettier-config/compare/@ffflorian/prettier-config@0.1.1...@ffflorian/prettier-config@0.1.2) (2020-08-11)
 
 **Note:** Version bump only for package @ffflorian/prettier-config

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.5.1 (2022-04-27)
+
+
+### Bug Fixes
+
+* **eslint-config:** Use @typescript-eslint/no-unused-vars ([8c8623b](https://github.com/ffflorian/config/tree/main/packages/semantic-release-config/commit/8c8623b724999980c6519d38db2f355240de4260))
+
+
+
+
+
 # [0.5.0](https://github.com/ffflorian/config/tree/main/packages/semantic-release-config/compare/@ffflorian/semantic-release-config@0.4.0...@ffflorian/semantic-release-config@0.5.0) (2021-02-19)
 
 
