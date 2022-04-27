@@ -15,7 +15,7 @@
         "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-inferrable-types": ["error", {"ignoreParameters": true}],
         "@typescript-eslint/no-this-alias": "error",
-        "@typescript-eslint/no-unused-vars-experimental": "error",
+        "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/prefer-readonly": "error",
         "@typescript-eslint/typedef": "error",
         "unused-imports/no-unused-imports": "error",
