@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.5.2 (2022-08-31)
+
+
+### Bug Fixes
+
+* **eslint-config:** Update peer dependencies ([ac4c51a](https://github.com/ffflorian/config/commit/ac4c51af63520d087d03c7d2abd2128ee415b726))
+
+
+
+
+
 ## 0.5.1 (2022-04-27)
 
 
