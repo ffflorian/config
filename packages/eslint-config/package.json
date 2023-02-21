@@ -9,9 +9,9 @@
   "main": "index.json",
   "name": "@ffflorian/eslint-config",
   "peerDependencies": {
+    "@babel/eslint-parser": ">= 7.0.0",
     "@typescript-eslint/eslint-plugin": ">= 4.14.1",
     "@typescript-eslint/parser": ">= 4.14.1",
-    "babel-eslint": ">= 10.0.0",
     "eslint": ">= 6.8.0",
     "eslint-config-prettier": ">= 4.0.0",
     "eslint-plugin-import": ">= 2.20.0",
