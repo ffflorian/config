@@ -23,7 +23,7 @@
       }
     }
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaVersion": 11,
     "project": "tsconfig.json",
