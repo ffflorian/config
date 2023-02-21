@@ -12,5 +12,5 @@
     "prettier": ">= 1.17.0"
   },
   "repository": "https://github.com/ffflorian/config/tree/main/packages/prettier-config",
-  "version": "0.1.4"
+  "version": "0.2.0"
 }

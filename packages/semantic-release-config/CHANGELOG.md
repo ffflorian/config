@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.6.0 (2023-02-21)
+
+
+### Features
+
+* **eslint-config:** Use new eslint-parser ([213c145](https://github.com/ffflorian/config/commit/213c145b32b3221d8dd3082c860c1f21f4fa0e29))
+
+
+
+
+
 ## 0.5.2 (2022-08-31)
 
 
