@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.9.1 (2023-02-21)
+
+
+### Bug Fixes
+
+* **eslint-config:** Update readme instructions ([1369c28](https://github.com/ffflorian/config/commit/1369c28e4e33cc610a1214961359e75b46032f5b))
+
+
+
+
+
 # 0.9.0 (2023-02-21)
 
 
