@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.3.0 (2023-04-09)
+
+
+### Features
+
+* **semantic-release-config:** Don't release from flattened anymore ([35f6dfb](https://github.com/ffflorian/config/commit/35f6dfba7b2bf8d3d18888845dbfe9dafa280a96))
+
+
+
+
+
 ## 1.2.1 (2023-02-21)
 
 
