@@ -20,12 +20,7 @@
       }
     ],
     "@semantic-release/changelog",
-    [
-      "@semantic-release/npm",
-      {
-        "pkgRoot": "flattened"
-      }
-    ],
+    "@semantic-release/npm",
     [
       "@semantic-release/github",
       {
