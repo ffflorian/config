@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.7.1 (2023-04-10)
+
+
+### Bug Fixes
+
+* **semantic-release-config:** Remove publish-flat peer dependency ([0c0ae1e](https://github.com/ffflorian/config/commit/0c0ae1eca00c7572e4aade89b79bb4ba0024c38d))
+
+
+
+
+
 # 0.7.0 (2023-04-09)
 
 
