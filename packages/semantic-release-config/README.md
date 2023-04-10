@@ -8,7 +8,6 @@
 
 ```
 yarn add -D @ffflorian/semantic-release-config \
-            publish-flat \
             semantic-release \
             @semantic-release/changelog \
             @semantic-release/git
@@ -24,8 +23,6 @@ yarn add -D @ffflorian/semantic-release-config \
   },
   // ...
   "scripts": {
-    "flatten": "publish-flat -o flattened",
-    "postversion": "node ../node_modules/publish-flat/cli-copy.js -i package.json -o ../package.json version",
     "release": "semantic-release"
   }
 }
@@ -40,7 +37,6 @@ jobs:
       - name: Release
         run: |
           # test and build
-          yarn flatten
           # set up git
           yarn release
 ```
