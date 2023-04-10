@@ -11,7 +11,6 @@
   "peerDependencies": {
     "@semantic-release/changelog": ">= 3.0.0",
     "@semantic-release/git": ">= 7.0.0",
-    "publish-flat": ">= 1.1.0",
     "semantic-release": ">= 15.13.0"
   },
   "repository": "https://github.com/ffflorian/config/tree/main/packages/semantic-release-config",
