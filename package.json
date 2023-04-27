@@ -7,13 +7,12 @@
     "prettier": "2.8.8"
   },
   "engines": {
-    "node": ">= 10.9",
-    "yarn": ">= 1"
+    "node": ">= 14.10"
   },
-  "private": true,
+  "packageManager": "yarn@3.5.0",
   "prettier": "./packages/prettier-config/index.json",
+  "private": true,
   "scripts": {
-    "boot": "lerna bootstrap --reject-cycles",
     "dist": "exit 0",
     "fix": "yarn prettier --write",
     "lint": "yarn prettier --list-different",
@@ -23,6 +22,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "packageManager": "yarn@3.5.0"
+  ]
 }
