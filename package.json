@@ -2,7 +2,7 @@
   "author": "Florian Imdahl <git@ffflorian.de>",
   "description": "My personal configuration files",
   "devDependencies": {
-    "@evilmartians/lefthook": "1.4.1",
+    "@evilmartians/lefthook": "1.4.3",
     "lerna": "6.6.2",
     "prettier": "2.8.8"
   },
