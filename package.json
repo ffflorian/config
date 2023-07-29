@@ -3,7 +3,7 @@
   "description": "My personal configuration files",
   "devDependencies": {
     "@evilmartians/lefthook": "1.4.7",
-    "lerna": "6.6.2",
+    "lerna": "7.1.4",
     "prettier": "3.0.0"
   },
   "engines": {
