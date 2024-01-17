@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.2 (2024-01-17)
+
+
+### Bug Fixes
+
+* Update lerna configuration ([04609ff](https://github.com/ffflorian/config/commit/04609ffdd359679f451ae0668df455b6057c5e3d))
+
+
+
+
+
 ## 1.3.1 (2023-04-10)
 
 
