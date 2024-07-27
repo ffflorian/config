@@ -25,12 +25,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@evilmartians/lefthook@npm:1.7.2":
-  version: 1.7.2
-  resolution: "@evilmartians/lefthook@npm:1.7.2"
+"@evilmartians/lefthook@npm:1.7.9":
+  version: 1.7.9
+  resolution: "@evilmartians/lefthook@npm:1.7.9"
   bin:
     lefthook: bin/index.js
-  checksum: 79e319f3255350af530a863eec9d539236fefaade0e7a372cefa7b568dad3547c4078f386a0355fcbdf8dd659055ad2c0aff761115ef4c623cbe447a4216ad29
+  checksum: fa3a3d23a0ab3e9a59cc3e94175d92ea483e0d8c64387e64abd326ce43878491aba1bf82942546d466706e03d85e5ee1a80e2af8ac653e75ae6cba739b115002
   conditions: (os=darwin | os=linux | os=win32) & (cpu=x64 | cpu=arm64 | cpu=ia32)
   languageName: node
   linkType: hard
@@ -4710,7 +4710,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@evilmartians/lefthook": 1.7.2
+    "@evilmartians/lefthook": 1.7.9
     lerna: 8.1.6
     prettier: 3.3.2
   languageName: unknown
