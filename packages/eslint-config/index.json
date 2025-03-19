@@ -4,7 +4,7 @@
     "es6": true,
     "node": true
   },
-  "extends": ["prettier", "plugin:no-unsanitized/DOM"],
+  "extends": ["prettier", "plugin:no-unsanitized/recommended-legacy"],
   "overrides": [
     {
       "files": "*.ts",
