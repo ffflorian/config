@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.4.0 (2026-01-06)
+
+
+### Features
+
+* Remove typescript-config ([12608dd](https://github.com/ffflorian/config/commit/12608ddc926c2cb6ba05dd0b81c4793489886689))
+
+
+
+
+
 ## 0.3.3 (2024-05-26)
 
 **Note:** Version bump only for package @ffflorian/prettier-config
