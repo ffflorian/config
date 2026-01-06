@@ -102,14 +102,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ffflorian/typescript-config@workspace:packages/typescript-config":
-  version: 0.0.0-use.local
-  resolution: "@ffflorian/typescript-config@workspace:packages/typescript-config"
-  peerDependencies:
-    typescript: ">= 2.1.0"
-  languageName: unknown
-  linkType: soft
-
 "@hutson/parse-repository-url@npm:^3.0.0":
   version: 3.0.2
   resolution: "@hutson/parse-repository-url@npm:3.0.2"
