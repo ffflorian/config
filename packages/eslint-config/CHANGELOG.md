@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.11.1 (2026-01-09)
+
+
+### Bug Fixes
+
+* Release ([90cde23](https://github.com/ffflorian/config/commit/90cde23c333d29f7613eb7dd59d990d139c4631c))
+
+
+
+
+
 # 0.11.0 (2026-01-06)
 
 
