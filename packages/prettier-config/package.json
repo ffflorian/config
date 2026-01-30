@@ -19,5 +19,5 @@
     "fix": "exit 0",
     "lint": "exit 0"
   },
-  "version": "0.5.0"
+  "version": "0.5.1"
 }
