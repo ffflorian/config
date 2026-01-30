@@ -1,6 +1,9 @@
 {
   "author": "Florian Imdahl <git@ffflorian.de>",
   "description": "@ffflorian's semantic-release configuration",
+  "files": [
+    "index.json"
+  ],
   "keywords": [
     "semantic-release",
     "semantic-release-config"
