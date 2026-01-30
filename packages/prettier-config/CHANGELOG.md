@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.5.0 (2026-01-30)
+
+
+### Features
+
+* **eslint-config:** Add new flat configuration ([6daa64f](https://github.com/ffflorian/config/commit/6daa64f64a322831fd50ecc771ed3deb979b2e64))
+
+
+### BREAKING CHANGES
+
+* **eslint-config:** Now requires eslint >= 9.39 and typescript
+
+
+
+
+
 ## 0.4.1 (2026-01-09)
 
 
