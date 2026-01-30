@@ -1,29 +1,52 @@
 {
   "author": "Florian Imdahl <git@ffflorian.de>",
+  "dependencies": {
+    "@eslint/js": "9.39.2",
+    "eslint": "9.39.2",
+    "eslint-import-resolver-typescript": "4.4.4",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-oxlint": "1.42.0",
+    "eslint-plugin-perfectionist": "5.4.0",
+    "globals": "17.2.0",
+    "jiti": "2.6.1",
+    "typescript-eslint": "8.54.0"
+  },
   "description": "@ffflorian's eslint configuration",
+  "devDependencies": {
+    "@eslint/js": "9.39.2",
+    "eslint": "9.39.2",
+    "eslint-import-resolver-typescript": "4.4.4",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-oxlint": "1.42.0",
+    "eslint-plugin-perfectionist": "5.4.0",
+    "globals": "17.2.0",
+    "jiti": "2.6.1",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.54.0"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "license": "GPL-3.0",
-  "main": "index.json",
-  "name": "@ffflorian/eslint-config",
   "peerDependencies": {
-    "@babel/eslint-parser": ">= 7.0.0",
-    "@typescript-eslint/eslint-plugin": ">= 4.14.1",
-    "@typescript-eslint/parser": ">= 4.14.1",
-    "eslint": ">= 6.8.0",
-    "eslint-config-prettier": ">= 4.0.0",
-    "eslint-plugin-import": ">= 2.20.0",
-    "eslint-plugin-jasmine": ">= 4.1.0",
-    "eslint-plugin-jsdoc": ">= 21.0.0",
-    "eslint-plugin-no-unsanitized": ">= 3.1.0",
-    "eslint-plugin-prettier": ">= 3.1.2",
-    "eslint-plugin-simple-import-sort": ">= 5.0.0",
-    "eslint-plugin-sort-keys-fix": ">= 1.1.0",
-    "eslint-plugin-typescript-sort-keys": ">= 0.8.0",
-    "eslint-plugin-unused-imports": ">= 1.1.0"
+    "@eslint/js": ">= 9.39.2",
+    "eslint": ">= 9.39.2",
+    "eslint-import-resolver-typescript": ">= 4.4.4",
+    "eslint-plugin-import": ">= 2.32.0",
+    "eslint-plugin-oxlint": ">= 1.42.0",
+    "eslint-plugin-perfectionist": ">= 5.4.0",
+    "globals": ">= 17.2.0",
+    "jiti": ">= 2.6.1",
+    "typescript": ">= 5.9.3",
+    "typescript-eslint": ">= 8.54.0"
   },
-  "repository": "https://github.com/ffflorian/config/tree/main/packages/eslint-config",
+  "license": "GPL-3.0",
+  "main": "index.ts",
+  "name": "@ffflorian/eslint-config",
+  "scripts": {
+    "fix": "yarn lint --fix",
+    "lint": "eslint -c index.ts ."
+  },
+  "repository": "https://github.com/ffflorian/config",
   "version": "0.11.1"
 }

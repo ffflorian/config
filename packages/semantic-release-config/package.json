@@ -13,6 +13,10 @@
     "@semantic-release/git": ">= 7.0.0",
     "semantic-release": ">= 15.13.0"
   },
-  "repository": "https://github.com/ffflorian/config/tree/main/packages/semantic-release-config",
+  "scripts": {
+    "fix": "exit 0",
+    "lint": "exit 0"
+  },
+  "repository": "https://github.com/ffflorian/config",
   "version": "0.8.1"
 }
