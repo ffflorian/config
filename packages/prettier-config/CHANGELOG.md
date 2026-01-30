@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.5.2 (2026-01-30)
+
+
+### Bug Fixes
+
+* **eslint-config:** Add browser globals ([fc64300](https://github.com/ffflorian/config/commit/fc64300a30ba51f3231f97b5350c11d0591cd1c0))
+
+
+
+
+
 ## 0.5.1 (2026-01-30)
 
 
