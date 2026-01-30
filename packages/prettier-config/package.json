@@ -11,6 +11,10 @@
   "peerDependencies": {
     "prettier": ">= 1.17.0"
   },
-  "repository": "https://github.com/ffflorian/config/tree/main/packages/prettier-config",
+  "repository": "https://github.com/ffflorian/config",
+  "scripts": {
+    "fix": "exit 0",
+    "lint": "exit 0"
+  },
   "version": "0.4.1"
 }

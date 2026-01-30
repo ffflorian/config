@@ -1,6 +1,6 @@
 {
   "author": "Florian Imdahl <git@ffflorian.de>",
-  "description": "My personal configuration files",
+  "description": "@ffflorian's personal configuration files",
   "devDependencies": {
     "@evilmartians/lefthook": "2.0.13",
     "lerna": "9.0.3",
@@ -13,9 +13,9 @@
   "prettier": "./packages/prettier-config/index.json",
   "private": true,
   "scripts": {
-    "fix": "yarn prettier --write",
-    "lint": "yarn prettier --list-different",
-    "prettier": "prettier \"*.{json,md,yml}\"",
+    "fix": "lerna run fix && yarn prettier --write",
+    "lint": "lerna run lint && yarn prettier --list-different",
+    "prettier": "prettier \"*.{json,md,yml,ts}\"",
     "release": "lerna publish",
     "test": "exit 0"
   },
