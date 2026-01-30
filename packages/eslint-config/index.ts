@@ -32,7 +32,6 @@ export default defineConfig([
       '@typescript-eslint/no-inferrable-types': ['error', {ignoreParameters: true}],
       '@typescript-eslint/no-redeclare': 'error',
       '@typescript-eslint/no-this-alias': 'error',
-      '@typescript-eslint/no-undefined': 'error',
       '@typescript-eslint/no-unused-vars': 'error',
       '@typescript-eslint/typedef': 'error',
       'constructor-super': 'error',
