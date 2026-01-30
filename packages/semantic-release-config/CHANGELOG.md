@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.9.3 (2026-01-30)
+
+
+### Bug Fixes
+
+* **eslint-config:** Remove @typescript-eslint/no-undefined ([c239c55](https://github.com/ffflorian/config/commit/c239c55888fde924b08e17ce9742716a7f76e655))
+
+
+
+
+
 ## 0.9.2 (2026-01-30)
 
 
