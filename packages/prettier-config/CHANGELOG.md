@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.5.4 (2026-01-30)
+
+
+### Bug Fixes
+
+* **eslint-config:** Ignore .yarn dir ([d77469e](https://github.com/ffflorian/config/commit/d77469e59cc9c1a75aeb0dadc5f18d605f7e5ff5))
+
+
+
+
+
 ## 0.5.3 (2026-01-30)
 
 
