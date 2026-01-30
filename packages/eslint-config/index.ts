@@ -1,7 +1,7 @@
 import js from '@eslint/js';
 import importPlugin from 'eslint-plugin-import';
 import oxlint from 'eslint-plugin-oxlint';
-import perfectionist from 'eslint-plugin-perfectionist';
+import {configs as perfectionistConfigs} from 'eslint-plugin-perfectionist';
 import {defineConfig, globalIgnores} from 'eslint/config';
 import globals from 'globals';
 import {configs as tseslintConfigs} from 'typescript-eslint';
@@ -14,7 +14,7 @@ export default defineConfig([
     extends: [
       importPlugin.flatConfigs.recommended,
       importPlugin.flatConfigs.typescript,
-      perfectionist.configs['recommended-alphabetical'],
+      perfectionistConfigs['recommended-alphabetical'],
     ],
     files: ['**/*.{js,mjs,cjs,ts,mts,cts}'],
     languageOptions: {
@@ -32,6 +32,7 @@ export default defineConfig([
       '@typescript-eslint/no-inferrable-types': ['error', {ignoreParameters: true}],
       '@typescript-eslint/no-redeclare': 'error',
       '@typescript-eslint/no-this-alias': 'error',
+      '@typescript-eslint/no-undefined': 'error',
       '@typescript-eslint/no-unused-vars': 'error',
       '@typescript-eslint/typedef': 'error',
       'constructor-super': 'error',
@@ -51,7 +52,7 @@ export default defineConfig([
       'no-sequences': 'error',
       'no-sparse-arrays': 'error',
       'no-trailing-spaces': 'error',
-      'no-undef': 'error',
+      'no-undef': 'off',
       'no-unneeded-ternary': 'error',
       'no-unused-expressions': 'error',
       'no-unused-vars': 'off',
