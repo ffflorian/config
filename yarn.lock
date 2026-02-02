@@ -363,19 +363,6 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.0.1"
     typescript: "npm:5.9.3"
-  peerDependencies:
-    "@eslint/js": ">= 9.39.2"
-    eslint: ">= 9.39.2"
-    eslint-import-resolver-typescript: ">= 4.4.4"
-    eslint-plugin-import: ">= 2.32.0"
-    eslint-plugin-oxlint: ">= 1.42.0"
-    eslint-plugin-perfectionist: ">= 5.4.0"
-    eslint-plugin-react: ">= 7.37.5"
-    eslint-plugin-react-hooks: ">= 7.0.1"
-    globals: ">= 17.2.0"
-    jiti: ">= 2.6.1"
-    typescript: ">= 5.9.3"
-    typescript-eslint: ">= 8.54.0"
   languageName: unknown
   linkType: soft
 
@@ -393,17 +380,6 @@ __metadata:
     jiti: "npm:2.6.1"
     typescript: "npm:5.9.3"
     typescript-eslint: "npm:8.54.0"
-  peerDependencies:
-    "@eslint/js": ">= 9.39.2"
-    eslint: ">= 9.39.2"
-    eslint-import-resolver-typescript: ">= 4.4.4"
-    eslint-plugin-import: ">= 2.32.0"
-    eslint-plugin-oxlint: ">= 1.42.0"
-    eslint-plugin-perfectionist: ">= 5.4.0"
-    globals: ">= 17.2.0"
-    jiti: ">= 2.6.1"
-    typescript: ">= 5.9.3"
-    typescript-eslint: ">= 8.54.0"
   languageName: unknown
   linkType: soft
 
