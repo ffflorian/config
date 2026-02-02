@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.10.2 (2026-02-02)
+
+
+### Bug Fixes
+
+* **eslint-config:** Use extends, fix files ([0c6b8ab](https://github.com/ffflorian/config/commit/0c6b8abda5123a071d7f43d84429dd8123d3b5f5))
+
+
+
+
+
 ## 0.10.1 (2026-02-02)
 
 
