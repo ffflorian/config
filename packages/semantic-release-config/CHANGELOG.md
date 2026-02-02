@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.10.1 (2026-02-02)
+
+
+### Bug Fixes
+
+* Remove redundant peer dependencies ([b65c676](https://github.com/ffflorian/config/commit/b65c676f27f2126820a4a571b1ef2a1a1597faf6))
+
+
+
+
+
 # 0.10.0 (2026-02-02)
 
 
