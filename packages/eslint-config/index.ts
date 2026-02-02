@@ -8,13 +8,13 @@ import {configs as tseslintConfigs} from 'typescript-eslint';
 
 export default defineConfig([
   globalIgnores(['**/node_modules/**', '**/dist/**', '.yarn/**']),
-  js.configs.recommended,
-  tseslintConfigs.recommended,
   {
     extends: [
       importPlugin.flatConfigs.recommended,
       importPlugin.flatConfigs.typescript,
+      js.configs.recommended,
       perfectionistConfigs['recommended-alphabetical'],
+      tseslintConfigs.recommended,
     ],
     files: ['**/*.{js,mjs,cjs,ts,mts,cts}'],
     languageOptions: {
