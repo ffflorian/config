@@ -358,7 +358,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ffflorian/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
-    "@ffflorian/eslint-config": "npm:0.13.2"
+    "@ffflorian/eslint-config": "npm:0.13.3"
     eslint: "npm:9.39.2"
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.0.1"
@@ -366,7 +366,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ffflorian/eslint-config@npm:0.13.2, @ffflorian/eslint-config@workspace:packages/eslint-config":
+"@ffflorian/eslint-config@npm:0.13.3, @ffflorian/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@ffflorian/eslint-config@workspace:packages/eslint-config"
   dependencies:

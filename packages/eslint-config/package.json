@@ -30,5 +30,5 @@
     "lint": "eslint -c index.ts ."
   },
   "repository": "https://github.com/ffflorian/config",
-  "version": "0.13.2"
+  "version": "0.13.3"
 }
