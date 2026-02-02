@@ -5,16 +5,13 @@ import {defineConfig} from 'eslint/config';
 import globals from 'globals';
 
 export default defineConfig([
+  reactPlugin.configs.flat.recommended,
+  reactPlugin.configs.flat['jsx-runtime'],
+  reactHooks.configs.flat.recommended,
+  eslintBaseConfig,
   {
-    extends: [
-      reactPlugin.configs.flat.recommended,
-      reactPlugin.configs.flat['jsx-runtime'],
-      reactHooks.configs.flat.recommended,
-      eslintBaseConfig,
-    ],
     files: ['**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     languageOptions: {
-      ...reactPlugin.configs.flat.recommended.languageOptions,
       globals: {
         ...globals.serviceworker,
         ...globals.browser,
