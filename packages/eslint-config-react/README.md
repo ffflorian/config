@@ -1,6 +1,6 @@
-## @ffflorian/eslint-config [![npm version](https://img.shields.io/npm/v/@ffflorian/eslint-config.svg)](https://npmjs.com/package/@ffflorian/eslint-config)
+## @ffflorian/eslint-config-react [![npm version](https://img.shields.io/npm/v/@ffflorian/eslint-config-react.svg)](https://npmjs.com/package/@ffflorian/eslint-config-react)
 
-> @ffflorian's personal [eslint](https://eslint.org/) configuration.
+> @ffflorian's personal [eslint](https://eslint.org/) configuration for react projects
 
 ### Usage
 

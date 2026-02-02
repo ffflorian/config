@@ -1,17 +1,11 @@
 {
   "author": "Florian Imdahl <git@ffflorian.de>",
   "dependencies": {
-    "@eslint/js": "9.39.2",
-    "eslint": "9.39.2",
-    "eslint-import-resolver-typescript": "4.4.4",
-    "eslint-plugin-import": "2.32.0",
-    "eslint-plugin-oxlint": "1.42.0",
-    "eslint-plugin-perfectionist": "5.4.0",
-    "globals": "17.3.0",
-    "jiti": "2.6.1",
-    "typescript-eslint": "8.54.0"
+    "@ffflorian/eslint-config": "0.12.4",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.0.1"
   },
-  "description": "@ffflorian's eslint configuration",
+  "description": "@ffflorian's eslint configuration for react projects",
   "devDependencies": {
     "typescript": "5.9.3"
   },
@@ -20,7 +14,8 @@
   ],
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "react"
   ],
   "peerDependencies": {
     "@eslint/js": ">= 9.39.2",
@@ -29,6 +24,8 @@
     "eslint-plugin-import": ">= 2.32.0",
     "eslint-plugin-oxlint": ">= 1.42.0",
     "eslint-plugin-perfectionist": ">= 5.4.0",
+    "eslint-plugin-react": ">= 7.37.5",
+    "eslint-plugin-react-hooks": ">= 7.0.1",
     "globals": ">= 17.2.0",
     "jiti": ">= 2.6.1",
     "typescript": ">= 5.9.3",
@@ -36,11 +33,11 @@
   },
   "license": "GPL-3.0",
   "main": "index.ts",
-  "name": "@ffflorian/eslint-config",
+  "name": "@ffflorian/eslint-config-react",
   "scripts": {
     "fix": "yarn lint --fix",
     "lint": "eslint -c index.ts ."
   },
   "repository": "https://github.com/ffflorian/config",
-  "version": "0.12.4"
+  "version": "0.0.1"
 }
