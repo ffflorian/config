@@ -13,7 +13,7 @@ yarn add -D @ffflorian/eslint-config-react
 **Edit `eslint.config.ts`**:
 
 ```ts
-import config from '@ffflorian/eslint-config';
+import config from '@ffflorian/eslint-config-react';
 import {Config, defineConfig} from 'eslint/config';
 
 export default defineConfig([config as Config]);
