@@ -1,7 +1,8 @@
 name: Check for yarn updates
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
 
 on:
   push:
@@ -41,5 +42,4 @@ jobs:
             See the [release notes](https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F${{ steps.check-yarn-version.outputs.YARN_VERSION }}) for more details.
           branch: 'chore/deps/yarn-${{ steps.check-yarn-version.outputs.YARN_VERSION }}'
           commit-message: 'chore(deps): Update yarn to version ${{ steps.check-yarn-version.outputs.YARN_VERSION }}'
-          token: ${{ secrets.GITHUB_TOKEN }}
           title: 'chore(deps): Update yarn to version ${{ steps.check-yarn-version.outputs.YARN_VERSION }}'
