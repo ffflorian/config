@@ -3,7 +3,7 @@
   "description": "@ffflorian's personal configuration files",
   "devDependencies": {
     "@evilmartians/lefthook": "2.0.16",
-    "lerna": "9.0.3",
+    "lerna": "9.0.4",
     "prettier": "3.8.1"
   },
   "engines": {
