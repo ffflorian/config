@@ -375,6 +375,8 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.0.1"
     typescript: "npm:5.9.3"
+  peerDependencies:
+    eslint: ">=8.x || <10.x"
   languageName: unknown
   linkType: soft
 
@@ -392,6 +394,8 @@ __metadata:
     jiti: "npm:2.6.1"
     typescript: "npm:5.9.3"
     typescript-eslint: "npm:8.56.1"
+  peerDependencies:
+    eslint: ">=8.x || <10.x"
   languageName: unknown
   linkType: soft
 
