@@ -25,6 +25,9 @@
   "license": "GPL-3.0",
   "main": "index.ts",
   "name": "@ffflorian/eslint-config",
+  "peerDependencies": {
+    "eslint": ">=8.x || <10.x"
+  },
   "scripts": {
     "fix": "yarn lint --fix",
     "lint": "eslint -c index.ts ."
