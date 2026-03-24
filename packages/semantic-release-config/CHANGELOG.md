@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.10.5 (2026-03-24)
+
+
+### Bug Fixes
+
+* Force release ([894344c](https://github.com/ffflorian/config/commit/894344c6c97da22564c25737ee4477852b6ed6d0))
+
+
+
+
+
 ## 0.10.4 (2026-03-05)
 
 
