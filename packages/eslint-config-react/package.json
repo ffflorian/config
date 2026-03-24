@@ -8,7 +8,7 @@
   "description": "@ffflorian's eslint configuration for react projects",
   "devDependencies": {
     "eslint": "9.39.3",
-    "typescript": "5.9.3"
+    "typescript": "6.0.2"
   },
   "files": [
     "index.ts"
