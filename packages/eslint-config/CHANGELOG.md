@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.13.6 (2026-03-26)
+
+
+### Bug Fixes
+
+* **deps:** bump picomatch from 4.0.2 to 4.0.4 ([#441](https://github.com/ffflorian/config/issues/441)) ([59c1d95](https://github.com/ffflorian/config/commit/59c1d9521c6a21c2cf1914be7b8bb2a3a0598c3b))
+
+
+
+
+
 ## 0.13.5 (2026-03-24)
 
 
