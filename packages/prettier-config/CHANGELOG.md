@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.6.7 (2026-03-26)
+
+
+### Bug Fixes
+
+* **deps:** Update sub-dependencies ([adeedf8](https://github.com/ffflorian/config/commit/adeedf8efe1cac347b44ef330cdc2aa6bbb739e0))
+
+
+
+
+
 ## 0.6.6 (2026-03-26)
 
 
