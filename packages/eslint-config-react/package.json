@@ -28,6 +28,9 @@
     "fix": "yarn lint --fix",
     "lint": "eslint -c index.ts ."
   },
-  "repository": "https://github.com/ffflorian/config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffflorian/config.git"
+  },
   "version": "0.2.0"
 }

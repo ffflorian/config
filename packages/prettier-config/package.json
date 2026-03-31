@@ -15,7 +15,10 @@
   "peerDependencies": {
     "prettier": ">= 1.17.0"
   },
-  "repository": "https://github.com/ffflorian/config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffflorian/config.git"
+  },
   "scripts": {
     "fix": "prettier --write .",
     "lint": "prettier --list-different ."
