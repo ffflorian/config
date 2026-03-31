@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.6.8 (2026-03-31)
+
+
+### Bug Fixes
+
+* **prettier-config:** Use https for schema URL ([cb86f25](https://github.com/ffflorian/config/commit/cb86f250d9f6ec7e1d0c06d3a1d7e87bc1046e19))
+
+
+
+
+
 ## 0.6.7 (2026-03-26)
 
 
