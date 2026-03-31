@@ -3,20 +3,23 @@
   "description": "@ffflorian's personal configuration files",
   "devDependencies": {
     "@evilmartians/lefthook": "2.1.4",
-    "lerna": "9.0.7",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "multi-semantic-release": "3.1.0",
     "prettier": "3.8.1",
     "semantic-release": "25.0.3"
   },
   "engines": {
     "node": ">= 14.10"
   },
+  "name": "@ffflorian/config",
   "packageManager": "yarn@4.13.0",
   "private": true,
   "scripts": {
-    "fix": "lerna run fix && yarn prettier --write",
-    "lint": "lerna run lint && yarn prettier --list-different",
+    "fix": "yarn workspaces foreach --all --parallel --exclude config run fix",
+    "lint": "yarn workspaces foreach --all --parallel --exclude config run lint",
     "prettier": "prettier \"*.{json,md,yml,ts}\"",
-    "release": "lerna publish",
+    "release": "multi-semantic-release --ignore-private-packages",
     "test": "exit 0"
   },
   "workspaces": [
