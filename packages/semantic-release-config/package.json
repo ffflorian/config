@@ -1,15 +1,16 @@
 {
   "author": "Florian Imdahl <git@ffflorian.de>",
   "description": "@ffflorian's semantic-release configuration",
+  "exports": "./index.js",
   "files": [
-    "index.json"
+    "index.js"
   ],
   "keywords": [
     "semantic-release",
     "semantic-release-config"
   ],
   "license": "GPL-3.0",
-  "main": "index.json",
+  "main": "index.js",
   "name": "@ffflorian/semantic-release-config",
   "peerDependencies": {
     "@semantic-release/changelog": ">= 3.0.0",
@@ -17,9 +18,10 @@
     "semantic-release": ">= 15.13.0"
   },
   "scripts": {
-    "fix": "exit 0",
-    "lint": "exit 0"
+    "fix": "prettier --write .",
+    "lint": "prettier --list-different ."
   },
   "repository": "https://github.com/ffflorian/config",
+  "type": "module",
   "version": "0.10.8"
 }
