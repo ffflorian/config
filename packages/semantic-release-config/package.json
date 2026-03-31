@@ -2,9 +2,6 @@
   "author": "Florian Imdahl <git@ffflorian.de>",
   "description": "@ffflorian's semantic-release configuration",
   "exports": "./index.js",
-  "files": [
-    "index.js"
-  ],
   "keywords": [
     "semantic-release",
     "semantic-release-config"
