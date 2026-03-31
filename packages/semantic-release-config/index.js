@@ -26,7 +26,7 @@ const defaultConfig = {
       '@semantic-release/github',
       {
         releasedLabels: false,
-        successComment: false,
+        successCommentCondition: false,
       },
     ],
     [
@@ -48,7 +48,7 @@ const multiPackageConfig = {
       '@semantic-release/git',
       {
         assets: ['package.json', 'CHANGELOG.md'],
-        message: 'chore(release): ${nextRelease.name} ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+        message: 'chore(release): ${nextRelease.name} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
   ],
