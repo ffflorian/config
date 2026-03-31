@@ -1,6 +1,18 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 0.11.0 (2026-03-31)
+
+
+### Features
+
+* **semantic-release-config,prettier-config:** Switch to JS config ([1b41c9e](https://github.com/ffflorian/config/commit/1b41c9e6518f4f155f9ce786214c16877db59320))
+
+
+
+
 
 ## 0.10.8 (2026-03-31)
 
