@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build_test_publish:
-    name: Build, test and publish
+    name: Build, lint, and publish
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
