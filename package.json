@@ -22,6 +22,10 @@
     "release": "multi-semantic-release --ignore-private-packages",
     "test": "exit 0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffflorian/config.git"
+  },
   "workspaces": [
     "packages/*"
   ]
