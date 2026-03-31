@@ -15,9 +15,6 @@
   "devDependencies": {
     "typescript": "6.0.2"
   },
-  "files": [
-    "index.ts"
-  ],
   "keywords": [
     "eslint",
     "eslintconfig"
