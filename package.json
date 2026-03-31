@@ -12,6 +12,7 @@
   "engines": {
     "node": ">= 14.10"
   },
+  "name": "@ffflorian/config",
   "packageManager": "yarn@4.13.0",
   "private": true,
   "scripts": {
