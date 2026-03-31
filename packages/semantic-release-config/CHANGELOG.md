@@ -1,3 +1,10 @@
+## @ffflorian/semantic-release-config [0.12.4](https://github.com/ffflorian/config/compare/@ffflorian/semantic-release-config@0.12.3...@ffflorian/semantic-release-config@0.12.4) (2026-03-31)
+
+
+### Bug Fixes
+
+* **semantic-release-config:** Fix successComment and commit message ([5f45998](https://github.com/ffflorian/config/commit/5f45998218b787650b1471ab5b034d001458d108))
+
 ## @ffflorian/semantic-release-config [0.12.3](https://github.com/ffflorian/config/compare/@ffflorian/semantic-release-config@0.12.2...@ffflorian/semantic-release-config@0.12.3) (2026-03-31)
 
 
