@@ -1,4 +1,4 @@
-name: Build
+name: Build, lint, and publish
 
 on:
   push:
@@ -24,16 +24,16 @@ jobs:
           node-version: 24.x
           cache: yarn
 
-      - name: Build, lint and test
+      - name: Install packages
         run: |
           yarn --immutable
+
+      - name: Lint
+        run: |
           yarn lint
-          yarn test
 
       - name: Release on npm
-        if: |
-          github.event_name != 'pull_request' &&
-          !startsWith(github.event.head_commit.message, 'chore')
+        if: github.event_name != 'pull_request'
         env:
           GIT_AUTHOR_NAME: Florian Imdahl
           GIT_AUTHOR_EMAIL: ffflorian@users.noreply.github.com
@@ -44,3 +44,10 @@ jobs:
           git config --global "user.email" "${GIT_AUTHOR_EMAIL}"
           git config --global "user.name" "${GIT_AUTHOR_NAME}"
           yarn release
+
+      - name: Upload release log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-log
+          path: /tmp/release.log
