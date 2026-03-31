@@ -4,10 +4,9 @@ Shared semantic-release configuration for Node.js packages.
 
 ## Exported Configs
 
-- Default export: `singlePackageConfig`
-- Named export: `singlePackageConfig`
+- Default export: `defaultConfig`
 - Named export: `multiPackageConfig`
-- Named export: `configWithoutGit`
+- Named export: `defaultConfig`
 
 ## Installation
 
