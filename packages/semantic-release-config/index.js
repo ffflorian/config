@@ -41,8 +41,9 @@ const defaultConfig = {
 
 /** @type {import("semantic-release").Options} */
 const multiPackageConfig = {
-  extends: defaultConfig,
+  ...defaultConfig,
   plugins: [
+    ...defaultConfig.plugins.slice(0, -1),
     [
       '@semantic-release/git',
       {
