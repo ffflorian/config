@@ -1,3 +1,10 @@
+## @ffflorian/semantic-release-config [0.12.3](https://github.com/ffflorian/config/compare/@ffflorian/semantic-release-config@0.12.2...@ffflorian/semantic-release-config@0.12.3) (2026-03-31)
+
+
+### Bug Fixes
+
+* replace .releaserc.mjs with .releaserc.json to fix changelog generation ([#452](https://github.com/ffflorian/config/issues/452)) ([dfa3e24](https://github.com/ffflorian/config/commit/dfa3e24455b65d6c8f1bef9d5204c1848febbf38))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
