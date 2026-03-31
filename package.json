@@ -4,13 +4,13 @@
   "devDependencies": {
     "@evilmartians/lefthook": "2.1.4",
     "lerna": "9.0.7",
-    "prettier": "3.8.1"
+    "prettier": "3.8.1",
+    "semantic-release": "25.0.3"
   },
   "engines": {
     "node": ">= 14.10"
   },
   "packageManager": "yarn@4.13.0",
-  "prettier": "./packages/prettier-config/index.json",
   "private": true,
   "scripts": {
     "fix": "lerna run fix && yarn prettier --write",
