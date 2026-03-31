@@ -422,7 +422,26 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ffflorian/eslint-config@npm:0.14.0, @ffflorian/eslint-config@workspace:packages/eslint-config":
+"@ffflorian/eslint-config@npm:0.14.0":
+  version: 0.14.0
+  resolution: "@ffflorian/eslint-config@npm:0.14.0"
+  dependencies:
+    "@eslint/js": "npm:10.0.1"
+    eslint: "npm:9.39.4"
+    eslint-import-resolver-typescript: "npm:4.4.4"
+    eslint-plugin-import: "npm:2.32.0"
+    eslint-plugin-oxlint: "npm:1.56.0"
+    eslint-plugin-perfectionist: "npm:5.7.0"
+    globals: "npm:17.4.0"
+    jiti: "npm:2.6.1"
+    typescript-eslint: "npm:8.57.1"
+  peerDependencies:
+    eslint: ">=8.x || <10.x"
+  checksum: 10c0/47b6c2abc53b31da911d3563be651c208d7b6de52c29b7ed6e228006e9dc8a1c68312e6a68d9878b88c56bcb6e559dbcb5c8e4d5cd324db9aef89a6bd45ea088
+  languageName: node
+  linkType: hard
+
+"@ffflorian/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@ffflorian/eslint-config@workspace:packages/eslint-config"
   dependencies:
