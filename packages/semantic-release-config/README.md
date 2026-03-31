@@ -1,42 +1,60 @@
-## @ffflorian/semantic-release-config [![npm version](https://img.shields.io/npm/v/@ffflorian/semantic-release-config.svg)](https://npmjs.com/package/@ffflorian/semantic-release-config)
+# @ffflorian/semantic-release-config [![npm version](https://img.shields.io/npm/v/@ffflorian/semantic-release-config.svg)](https://npmjs.com/package/@ffflorian/semantic-release-config)
 
-> @ffflorian's personal [semantic-release](https://semantic-release.gitbook.io/) configuration.
+Shared semantic-release configuration for Node.js packages.
 
-### Usage
+## Exported Configs
 
-**Install**:
+- Default export: `singlePackageConfig`
+- Named export: `singlePackageConfig`
+- Named export: `multiPackageConfig`
+- Named export: `configWithoutGit`
 
+## Installation
+
+```bash
+yarn add -D semantic-release @semantic-release/changelog @semantic-release/git @ffflorian/semantic-release-config
 ```
-yarn add -D @ffflorian/semantic-release-config \
-            semantic-release \
-            @semantic-release/changelog \
-            @semantic-release/git
-```
 
-**Edit `package.json`**:
+## Usage
 
-```jsonc
+Use the default single-package config in `package.json`:
+
+```json
 {
-  // ...
   "release": {
-    "extends": "@ffflorian/semantic-release-config",
+    "extends": "@ffflorian/semantic-release-config"
   },
-  // ...
   "scripts": {
-    "release": "semantic-release",
-  },
+    "release": "semantic-release"
+  }
 }
 ```
 
-**Edit .github/workflows/\<your-workflow\>**
+Use a named export in `release.config.mjs`:
+
+```js
+import {multiPackageConfig} from '@ffflorian/semantic-release-config';
+
+export default multiPackageConfig;
+```
+
+## GitHub Actions Example
 
 ```yaml
 jobs:
-  <job-name>:
+  release:
+    runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - run: yarn --immutable
       - name: Release
-        run: |
-          # test and build
-          # set up git
-          yarn release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: yarn release
 ```
+
+## Notes
+
+- The configs target the `main` branch.
+- `singlePackageConfig` and `multiPackageConfig` both include `@semantic-release/git` updates for `package.json` and `CHANGELOG.md`.

@@ -1,20 +1,35 @@
-## @ffflorian/eslint-config [![npm version](https://img.shields.io/npm/v/@ffflorian/eslint-config.svg)](https://npmjs.com/package/@ffflorian/eslint-config)
+# @ffflorian/eslint-config [![npm version](https://img.shields.io/npm/v/@ffflorian/eslint-config.svg)](https://npmjs.com/package/@ffflorian/eslint-config)
 
-> @ffflorian's personal [eslint](https://eslint.org/) configuration.
+Opinionated ESLint flat config for JavaScript and TypeScript projects.
 
-### Usage
+## What Is Included
 
-**Install**:
+- ESLint recommended rules
+- TypeScript ESLint recommended rules
+- Import plugin rules (including TypeScript import resolution)
+- Oxc lint recommended rules
+- Perfectionist alphabetical sorting rules
+- Browser and Node globals
 
+## Installation
+
+```bash
+yarn add -D eslint @ffflorian/eslint-config
 ```
-yarn add -D @ffflorian/eslint-config-react
-```
 
-**Edit `eslint.config.ts`**:
+## Usage
+
+Create or update `eslint.config.ts`:
 
 ```ts
 import config from '@ffflorian/eslint-config';
-import {Config, defineConfig} from 'eslint/config';
+import {defineConfig} from 'eslint/config';
 
-export default defineConfig([config as Config]);
+export default defineConfig([config]);
 ```
+
+## Notes
+
+- This package is built for ESLint flat config (`eslint.config.*`).
+- The config already includes TypeScript support via `typescript-eslint`.
+- If your project uses custom path aliases, ensure your TypeScript config is set up so import resolution works as expected.

@@ -1,21 +1,25 @@
-## @ffflorian/prettier-config [![npm version](https://img.shields.io/npm/v/@ffflorian/prettier-config.svg)](https://npmjs.com/package/@ffflorian/prettier-config)
+# @ffflorian/prettier-config [![npm version](https://img.shields.io/npm/v/@ffflorian/prettier-config.svg)](https://npmjs.com/package/@ffflorian/prettier-config)
 
-> @ffflorian's personal [prettier](https://prettier.io) configuration.
+Shared Prettier configuration.
 
-### Usage
+## Installation
 
-**Install**:
-
-```
-yarn add -D @ffflorian/prettier-config \
-            prettier
+```bash
+yarn add -D prettier @ffflorian/prettier-config
 ```
 
-**Edit `package.json`**:
+## Usage
 
-```jsonc
+Use it from `package.json`:
+
+```json
 {
-  // ...
-  "prettier": "@ffflorian/prettier-config",
+  "prettier": "@ffflorian/prettier-config"
 }
+```
+
+Or create a Prettier config file:
+
+```js
+export {default} from '@ffflorian/prettier-config';
 ```
