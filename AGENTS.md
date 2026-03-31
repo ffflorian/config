@@ -82,6 +82,8 @@ Current workflow (`.github/workflows/build_lint_publish.yml`):
 
 When changing release behavior, keep workflow and root release tooling (`.releaserc.mjs`, workspace package configurations) aligned.
 
+npm publishing uses OIDC (via the `id-token: write` permission) and does not require an `NPM_TOKEN` secret.
+
 ## PR Guidelines
 
 - Keep PR titles and descriptions focused on what changed and why.
