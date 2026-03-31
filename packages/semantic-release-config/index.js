@@ -32,8 +32,8 @@ const config = {
     [
       '@semantic-release/git',
       {
-        assets: ['package.json', 'CHANGELOG.md', 'edition-deno'],
-        message: 'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+        assets: ['package.json', 'CHANGELOG.md'],
+        message: 'chore(release): ${nextRelease.name} ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
   ],
