@@ -1,5 +1,5 @@
 /** @type {import("semantic-release").Options} */
-const configWithoutGit = {
+const defaultConfig = {
   branches: ['main'],
   plugins: [
     [
@@ -29,13 +29,6 @@ const configWithoutGit = {
         successComment: false,
       },
     ],
-  ],
-};
-
-const singlePackageConfig = {
-  ...configWithoutGit,
-  plugins: [
-    ...configWithoutGit.plugins,
     [
       '@semantic-release/git',
       {
@@ -46,10 +39,10 @@ const singlePackageConfig = {
   ],
 };
 
+/** @type {import("semantic-release").Options} */
 const multiPackageConfig = {
-  ...configWithoutGit,
+  extends: defaultConfig,
   plugins: [
-    ...configWithoutGit.plugins,
     [
       '@semantic-release/git',
       {
@@ -60,6 +53,5 @@ const multiPackageConfig = {
   ],
 };
 
-export {multiPackageConfig, singlePackageConfig, configWithoutGit};
-
-export default singlePackageConfig;
+export {multiPackageConfig, defaultConfig};
+export default defaultConfig;

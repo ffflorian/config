@@ -22,7 +22,10 @@
     "lint": "yarn prettier --list-different .",
     "prettier": "prettier --ignore-path ../../.prettierignore ."
   },
-  "repository": "https://github.com/ffflorian/config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffflorian/config.git"
+  },
   "type": "module",
   "version": "0.11.0"
 }
