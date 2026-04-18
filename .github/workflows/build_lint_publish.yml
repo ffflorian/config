@@ -1,16 +1,17 @@
 name: Build, lint, and publish
 
+permissions: {}
+
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
-
-permissions: {}
 jobs:
   build_lint_publish:
     permissions:
-      contents: read
+      contents: write
+      id-token: write
     name: Build, lint, and publish
     runs-on: ubuntu-latest
     steps:
