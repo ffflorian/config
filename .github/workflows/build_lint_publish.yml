@@ -6,12 +6,11 @@ on:
   pull_request:
     branches: [main]
 
-permissions:
-  id-token: write
-  contents: write
-
+permissions: {}
 jobs:
   build_lint_publish:
+    permissions:
+      contents: read
     name: Build, lint, and publish
     runs-on: ubuntu-latest
     steps:
