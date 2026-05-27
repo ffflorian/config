@@ -1,3 +1,10 @@
+## @ffflorian/semantic-release-config [0.12.5](https://github.com/ffflorian/config/compare/@ffflorian/semantic-release-config@0.12.4...@ffflorian/semantic-release-config@0.12.5) (2026-05-27)
+
+
+### Bug Fixes
+
+* **semantic-release-config:** git plugin replacement ([#492](https://github.com/ffflorian/config/issues/492)) ([16c00e3](https://github.com/ffflorian/config/commit/16c00e346b6c5514d2d5d3a20807bd4819b13d84))
+
 ## @ffflorian/semantic-release-config [0.12.4](https://github.com/ffflorian/config/compare/@ffflorian/semantic-release-config@0.12.3...@ffflorian/semantic-release-config@0.12.4) (2026-03-31)
 
 
