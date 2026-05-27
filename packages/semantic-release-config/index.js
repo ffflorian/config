@@ -43,7 +43,7 @@ const defaultConfig = {
 const multiPackageConfig = {
   ...defaultConfig,
   plugins: [
-    ...defaultConfig.plugins.slice(0, -1),
+    ...defaultConfig.plugins.filter(plugin => !Array.isArray(plugin) || plugin[0] !== '@semantic-release/git'),
     [
       '@semantic-release/git',
       {
