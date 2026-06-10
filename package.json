@@ -13,7 +13,7 @@
     "node": ">= 14.10"
   },
   "name": "@ffflorian/config",
-  "packageManager": "yarn@4.15.0",
+  "packageManager": "yarn@4.16.0",
   "private": true,
   "scripts": {
     "fix": "yarn workspaces foreach --all --parallel --exclude config run fix",
