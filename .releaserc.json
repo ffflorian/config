@@ -1,3 +1,4 @@
 {
-  "extends": "@ffflorian/semantic-release-config/multi"
+  "extends": "@ffflorian/semantic-release-config/multi",
+  "tagFormat": "${name}@v${version}"
 }
