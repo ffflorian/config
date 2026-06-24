@@ -1,3 +1,10 @@
+## @ffflorian/eslint-config-react [1.0.1](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config-react@1.0.0...@ffflorian/eslint-config-react@1.0.1) (2026-06-24)
+
+
+### Dependencies
+
+* **@ffflorian/eslint-config:** upgraded to 1.0.1
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
