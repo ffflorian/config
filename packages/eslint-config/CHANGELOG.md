@@ -1,3 +1,10 @@
+## @ffflorian/eslint-config [1.0.1](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config@1.0.0...@ffflorian/eslint-config@1.0.1) (2026-06-24)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-perfectionist from 5.9.0 to 5.9.1 ([#514](https://github.com/ffflorian/config/issues/514)) ([1eb7bb3](https://github.com/ffflorian/config/commit/1eb7bb3f451a3a92fb5aa9a2a366860b17611bf7))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
