@@ -1,3 +1,15 @@
+## @ffflorian/eslint-config-react [1.0.2](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config-react@1.0.1...@ffflorian/eslint-config-react@1.0.2) (2026-07-01)
+
+
+### Bug Fixes
+
+* **eslint-config-react:** Use latest version of eslint-config ([95ff156](https://github.com/ffflorian/config/commit/95ff156f1fe5f8f8f8ef9f7c1df51a837e0d61d2))
+
+
+### Dependencies
+
+* **@ffflorian/eslint-config:** upgraded to 1.0.2
+
 ## @ffflorian/eslint-config-react [1.0.1](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config-react@1.0.0...@ffflorian/eslint-config-react@1.0.1) (2026-06-24)
 
 
