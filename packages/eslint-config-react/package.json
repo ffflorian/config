@@ -1,11 +1,11 @@
 {
   "author": "Florian Imdahl <git@ffflorian.de>",
   "dependencies": {
-    "@ffflorian/eslint-config": "1.0.1",
+    "@ffflorian/eslint-config": "*",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "7.1.1"
   },
-  "description": "@ffflorian's eslint configuration for react projects",
+  "description": "@ffflorian's ESLint configuration for React projects",
   "devDependencies": {
     "eslint": "9.39.4",
     "typescript": "6.0.3"
