@@ -9,7 +9,7 @@
     "eslint-plugin-perfectionist": "5.10.0",
     "globals": "17.7.0",
     "jiti": "2.7.0",
-    "typescript-eslint": "8.62.1"
+    "typescript-eslint": "8.63.0"
   },
   "description": "@ffflorian's eslint configuration",
   "devDependencies": {
