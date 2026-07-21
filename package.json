@@ -7,7 +7,7 @@
     "lefthook": "2.1.10",
     "multi-semantic-release": "3.1.0",
     "prettier": "3.9.5",
-    "semantic-release": "25.0.5"
+    "semantic-release": "25.0.7"
   },
   "engines": {
     "node": ">= 14.10"
