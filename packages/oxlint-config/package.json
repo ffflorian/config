@@ -4,6 +4,11 @@
   "devDependencies": {
     "oxlint": "1.76.0"
   },
+  "files": [
+    "index.json",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [
     "oxlint",
     "oxlintconfig"

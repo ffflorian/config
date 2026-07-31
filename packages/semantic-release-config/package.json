@@ -5,6 +5,12 @@
     ".": "./index.js",
     "./multi": "./multi.js"
   },
+  "files": [
+    "index.js",
+    "multi.js",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [
     "semantic-release",
     "semantic-release-config"

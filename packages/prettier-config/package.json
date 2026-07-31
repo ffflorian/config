@@ -2,6 +2,11 @@
   "author": "Florian Imdahl <git@ffflorian.de>",
   "description": "@ffflorian's prettier configuration",
   "exports": "./index.js",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [
     "prettier",
     "prettierconfig"
