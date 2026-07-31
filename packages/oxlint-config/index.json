@@ -54,7 +54,7 @@
         "id-length": [
           "error",
           {
-            "exceptions": ["_"]
+            "exceptions": ["_", "T"]
           }
         ],
         "import/default": "error",
