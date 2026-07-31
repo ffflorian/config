@@ -267,6 +267,8 @@ __metadata:
   dependencies:
     oxlint: "npm:1.76.0"
   peerDependencies:
+    eslint: ">=10.8.0"
+    eslint-plugin-perfectionist: ">=5.10.0"
     oxlint: ">=1.76.0"
   languageName: unknown
   linkType: soft

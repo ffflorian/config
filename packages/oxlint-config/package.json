@@ -9,9 +9,11 @@
     "oxlintconfig"
   ],
   "license": "GPL-3.0",
-  "main": "index.ts",
+  "main": "index.json",
   "name": "@ffflorian/oxlint-config",
   "peerDependencies": {
+    "eslint": ">=10.8.0",
+    "eslint-plugin-perfectionist": ">=5.10.0",
     "oxlint": ">=1.76.0"
   },
   "scripts": {

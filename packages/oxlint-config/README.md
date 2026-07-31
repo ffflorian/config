@@ -12,7 +12,10 @@ Opinionated oxlint config for JavaScript and TypeScript projects.
 ## Installation
 
 ```bash
-yarn add -D oxlint @ffflorian/oxlint-config
+yarn add -D oxlint \
+            eslint \
+            eslint-plugin-perfectionist \
+            @ffflorian/oxlint-config
 ```
 
 ## Usage

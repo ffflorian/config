@@ -6,10 +6,10 @@
   "env": {
     "builtin": true
   },
-  "ignorePatterns": ["**/node_modules/**", "**/dist/**", ".yarn/**"],
+  "ignorePatterns": ["**/node_modules/**", "**/dist/**", "**/.yarn/**"],
   "overrides": [
     {
-      "files": ["**/*.ts", "**/*.tsx", "**/*.mts", "**/*.cts"],
+      "files": ["**/*.ts", "**/*.tsx", "**/*.mts", "**/*.cts", "**/*.js", "**/*.mjs", "**/*.cjs"],
       "rules": {
         "constructor-super": "off",
         "getter-return": "off",
