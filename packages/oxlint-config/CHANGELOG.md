@@ -1,3 +1,10 @@
+## @ffflorian/oxlint-config [1.0.2](https://github.com/ffflorian/config/compare/@ffflorian/oxlint-config@1.0.1...@ffflorian/oxlint-config@1.0.2) (2026-07-31)
+
+
+### Bug Fixes
+
+* Included files in releases ([af7c09f](https://github.com/ffflorian/config/commit/af7c09f0ea31b68ecc304697231276b137f67e10))
+
 ## @ffflorian/oxlint-config [1.0.1](https://github.com/ffflorian/config/compare/@ffflorian/oxlint-config@1.0.0...@ffflorian/oxlint-config@1.0.1) (2026-07-31)
 
 
