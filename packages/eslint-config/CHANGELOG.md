@@ -1,3 +1,10 @@
+## @ffflorian/eslint-config [1.1.1](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config@1.1.0...@ffflorian/eslint-config@1.1.1) (2026-07-31)
+
+
+### Bug Fixes
+
+* Included files in releases ([af7c09f](https://github.com/ffflorian/config/commit/af7c09f0ea31b68ecc304697231276b137f67e10))
+
 # @ffflorian/eslint-config [1.1.0](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config@1.0.6...@ffflorian/eslint-config@1.1.0) (2026-07-31)
 
 
