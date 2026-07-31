@@ -1,0 +1,26 @@
+{
+  "author": "Florian Imdahl <git@ffflorian.de>",
+  "description": "@ffflorian's oxlint configuration",
+  "devDependencies": {
+    "oxlint": "1.76.0"
+  },
+  "keywords": [
+    "oxlint",
+    "oxlintconfig"
+  ],
+  "license": "GPL-3.0",
+  "main": "index.ts",
+  "name": "@ffflorian/oxlint-config",
+  "peerDependencies": {
+    "oxlint": ">=1.76.0"
+  },
+  "scripts": {
+    "fix": "exit 0",
+    "lint": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffflorian/config.git"
+  },
+  "version": "0.0.1"
+}

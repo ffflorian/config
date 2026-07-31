@@ -55,6 +55,7 @@ This file explains how coding agents should work in this repository.
 This repository is a yarn workspace monorepo for publishing JavaScript/TypeScript configuration packages:
 
 - `@ffflorian/eslint-config`
+- `@ffflorian/oxlint-config`
 - `@ffflorian/prettier-config`
 - `@ffflorian/semantic-release-config`
 
@@ -62,6 +63,7 @@ This repository is a yarn workspace monorepo for publishing JavaScript/TypeScrip
 
 - `.github/workflows/build_lint_publish.yml`: Build, lint, and publish workflow.
 - `packages/eslint-config/`: Base ESLint config package.
+- `packages/oxlint-config/`: Base oxlint config package.
 - `packages/prettier-config/`: Prettier config package.
 - `packages/semantic-release-config/`: Semantic release config package.
 - Each package should keep `README.md`, `package.json`, and `CHANGELOG.md` aligned with behavior changes.
