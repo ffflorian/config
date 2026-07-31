@@ -1,20 +1,18 @@
-# @ffflorian/eslint-config [![npm version](https://img.shields.io/npm/v/@ffflorian/eslint-config.svg)](https://npmjs.com/package/@ffflorian/eslint-config)
+# @ffflorian/oxlint-config [![npm version](https://img.shields.io/npm/v/@ffflorian/oxlint-config.svg)](https://npmjs.com/package/@ffflorian/oxlint-config)
 
-Opinionated ESLint flat config for JavaScript and TypeScript projects.
+Opinionated oxlint config for JavaScript and TypeScript projects.
 
 ## What Is Included
 
-- ESLint recommended rules
+- oxlint recommended rules
 - TypeScript ESLint recommended rules
 - Import plugin rules (including TypeScript import resolution)
-- oxlint recommended rules
 - Perfectionist alphabetical sorting rules
-- Browser and Node globals
 
 ## Installation
 
 ```bash
-yarn add -D eslint @ffflorian/eslint-config
+yarn add -D oxlint @ffflorian/oxlint-config
 ```
 
 ## Usage
