@@ -1,3 +1,10 @@
+## @ffflorian/prettier-config [1.0.1](https://github.com/ffflorian/config/compare/@ffflorian/prettier-config@1.0.0...@ffflorian/prettier-config@1.0.1) (2026-07-31)
+
+
+### Bug Fixes
+
+* Included files in releases ([af7c09f](https://github.com/ffflorian/config/commit/af7c09f0ea31b68ecc304697231276b137f67e10))
+
 # Change Log
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
