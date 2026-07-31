@@ -1,3 +1,10 @@
+## @ffflorian/oxlint-config [1.0.3](https://github.com/ffflorian/config/compare/@ffflorian/oxlint-config@1.0.2...@ffflorian/oxlint-config@1.0.3) (2026-07-31)
+
+
+### Bug Fixes
+
+* **oxlint-config:** Add 'T' as accepted short variable name ([6564d68](https://github.com/ffflorian/config/commit/6564d6820610736cb22c0b537fb8ea09a6cf2f9c))
+
 ## @ffflorian/oxlint-config [1.0.2](https://github.com/ffflorian/config/compare/@ffflorian/oxlint-config@1.0.1...@ffflorian/oxlint-config@1.0.2) (2026-07-31)
 
 
