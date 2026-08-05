@@ -1,3 +1,11 @@
+## @ffflorian/eslint-config [1.1.2](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config@1.1.1...@ffflorian/eslint-config@1.1.2) (2026-08-05)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-oxlint from 1.75.0 to 1.76.0 ([#552](https://github.com/ffflorian/config/issues/552)) ([e2a4f35](https://github.com/ffflorian/config/commit/e2a4f359a9d043cf5c1e2f4824ed5e08268596ff))
+* **deps:** bump globals from 17.7.0 to 17.8.0 ([#550](https://github.com/ffflorian/config/issues/550)) [ci skip] ([1aacc80](https://github.com/ffflorian/config/commit/1aacc80944b6d5e808a43671f64aedbd7a3fe4ae))
+
 ## @ffflorian/eslint-config [1.1.1](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config@1.1.0...@ffflorian/eslint-config@1.1.1) (2026-07-31)
 
 
