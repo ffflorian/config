@@ -1,3 +1,10 @@
+## @ffflorian/eslint-config [1.1.5](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config@1.1.4...@ffflorian/eslint-config@1.1.5) (2026-08-26)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-oxlint from 1.78.0 to 1.79.0 ([#566](https://github.com/ffflorian/config/issues/566)) ([8835575](https://github.com/ffflorian/config/commit/88355752537906d6ea0bdbacfb69a87debddb01f))
+
 ## @ffflorian/eslint-config [1.1.4](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config@1.1.3...@ffflorian/eslint-config@1.1.4) (2026-08-18)
 
 
