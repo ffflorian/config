@@ -3,7 +3,7 @@ updates:
       - ffflorian
     commit-message:
       prefix: fix(deps)
-      prefix-development: chore(deps-dev)
+      prefix-development: fix(deps-dev)
     cooldown:
       default-days: 5
       exclude:
