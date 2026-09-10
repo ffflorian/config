@@ -1,3 +1,7 @@
+## 1.1.8 (2026-09-10)
+
+This was a version bump only for @ffflorian/eslint-config to align it with other projects, there were no code changes.
+
 ## @ffflorian/eslint-config [1.1.7](https://github.com/ffflorian/config/compare/@ffflorian/eslint-config@1.1.6...@ffflorian/eslint-config@1.1.7) (2026-09-09)
 
 
