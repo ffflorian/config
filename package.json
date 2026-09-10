@@ -2,12 +2,10 @@
   "author": "Florian Imdahl <git@ffflorian.de>",
   "description": "@ffflorian's personal configuration files",
   "devDependencies": {
-    "@semantic-release/changelog": "7.0.0",
-    "@semantic-release/git": "11.0.1",
+    "@nx/js": "23.2.1",
     "lefthook": "2.1.12",
-    "multi-semantic-release": "3.1.0",
-    "prettier": "3.9.6",
-    "semantic-release": "25.0.9"
+    "nx": "23.2.1",
+    "prettier": "3.9.6"
   },
   "engines": {
     "node": ">= 14.10"
@@ -19,7 +17,7 @@
     "fix": "yarn workspaces foreach --all --parallel --exclude config run fix",
     "lint": "yarn workspaces foreach --all --parallel --exclude config run lint",
     "prettier": "prettier \"*.{json,md,yml,ts}\"",
-    "release": "multi-semantic-release --ignore-private-packages",
+    "release": "nx release --yes",
     "test": "exit 0"
   },
   "repository": {

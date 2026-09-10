@@ -126,9 +126,15 @@ Current workflow (`.github/workflows/build_lint_publish.yml`):
 1. Runs on pushes and pull requests targeting `main`.
 2. Installs dependencies with `yarn --immutable`.
 3. Runs lint via `yarn lint`.
-4. Runs release via `yarn release` on non-PR events.
+4. Runs `yarn nx release --yes` on non-PR events.
 
-When changing release behavior, keep workflow and root release tooling (`.releaserc.mjs`, workspace package configurations) aligned.
+Releases are managed by `nx release` (configured in `nx.json`): independent per-package versioning from conventional commits, per-package `CHANGELOG.md`, git tags in the `{projectName}@{version}` format, GitHub releases, and npm publish. Nx is used for release management only, not as a build or task runner.
+
+`.github/workflows/force_release.yml` forces a bump for every package via `workflow_dispatch` with a `specifier` input (`patch`/`minor`/`major`).
+
+Release-related checkouts need `fetch-depth: 0`, since `nx release` resolves the current version from git tags.
+
+When changing release behavior, keep the workflows and `nx.json` aligned.
 
 npm publishing uses OIDC (via the `id-token: write` permission) and does not require an `NPM_TOKEN` secret.
 
