@@ -1,3 +1,7 @@
+## 1.0.2 (2026-09-10)
+
+This was a version bump only for @ffflorian/prettier-config to align it with other projects, there were no code changes.
+
 ## @ffflorian/prettier-config [1.0.1](https://github.com/ffflorian/config/compare/@ffflorian/prettier-config@1.0.0...@ffflorian/prettier-config@1.0.1) (2026-07-31)
 
 

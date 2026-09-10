@@ -1,3 +1,7 @@
+## 1.0.4 (2026-09-10)
+
+This was a version bump only for @ffflorian/oxlint-config to align it with other projects, there were no code changes.
+
 ## @ffflorian/oxlint-config [1.0.3](https://github.com/ffflorian/config/compare/@ffflorian/oxlint-config@1.0.2...@ffflorian/oxlint-config@1.0.3) (2026-07-31)
 
 
