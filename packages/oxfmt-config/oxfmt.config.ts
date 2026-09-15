@@ -4,5 +4,5 @@ import config from './index.ts';
 
 export default defineConfig({
   ...config,
-  ignorePatterns: ['**/dist/**', '**/node_modules/**', '**/.yarn/**'],
+  ignorePatterns: ['**/dist/**', '**/node_modules/**', '**/.yarn/**', '**/CHANGELOG.md'],
 });
