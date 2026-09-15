@@ -1,6 +1,6 @@
-import {defineConfig} from 'oxfmt';
+import {defineConfig, type OxfmtConfig} from 'oxfmt';
 
-export default defineConfig({
+const config: OxfmtConfig = {
   arrowParens: 'avoid',
   bracketSameLine: true,
   bracketSpacing: false,
@@ -20,9 +20,11 @@ export default defineConfig({
   quoteProps: 'as-needed',
   semi: true,
   singleQuote: true,
-  sortImports: true,
+  sortImports: false,
   sortPackageJson: false,
   tabWidth: 2,
   trailingComma: 'es5',
   useTabs: false,
-});
+};
+
+export default defineConfig(config);

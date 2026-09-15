@@ -2,6 +2,10 @@ dist/
 node_modules/
 package-lock.json
 yarn-error.log
+packages/eslint-config/*.js
+packages/eslint-config/*.d.ts
+packages/oxfmt-config/*.js
+packages/oxfmt-config/*.d.ts
 
 .pnp.*
 .yarn/*
@@ -10,6 +14,7 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.DS_Store
 
 # Nx
 .nx

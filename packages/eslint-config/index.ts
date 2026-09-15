@@ -1,3 +1,4 @@
+import type {ConfigWithExtendsArray} from '@eslint/config-helpers';
 import js from '@eslint/js';
 import importPlugin from 'eslint-plugin-import';
 import oxlint from 'eslint-plugin-oxlint';
@@ -6,7 +7,7 @@ import {defineConfig, globalIgnores} from 'eslint/config';
 import globals from 'globals';
 import {configs as tseslintConfigs} from 'typescript-eslint';
 
-export default defineConfig([
+const config: ConfigWithExtendsArray = [
   globalIgnores(['**/node_modules/**', '**/dist/**', '.yarn/**']),
   js.configs.recommended,
   tseslintConfigs.recommended,
@@ -76,4 +77,6 @@ export default defineConfig([
     },
   },
   ...oxlint.configs['flat/recommended'],
-]);
+];
+
+export default defineConfig(config);

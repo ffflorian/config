@@ -2,10 +2,11 @@
   "author": "Florian Imdahl <git@ffflorian.de>",
   "description": "@ffflorian's oxfmt configuration",
   "devDependencies": {
-    "oxfmt": "0.68.0"
+    "oxfmt": "0.68.0",
+    "typescript": "7.0.2"
   },
   "files": [
-    "index.json",
+    "index.*",
     "LICENSE",
     "README.md"
   ],
@@ -14,7 +15,7 @@
     "oxfmtconfig"
   ],
   "license": "GPL-3.0",
-  "main": "index.ts",
+  "main": "index.js",
   "name": "@ffflorian/oxfmt-config",
   "peerDependencies": {
     "oxfmt": ">=0.68.0"
@@ -24,6 +25,7 @@
     "url": "git+https://github.com/ffflorian/config.git"
   },
   "scripts": {
+    "build": "tsc",
     "fix": "oxfmt .",
     "lint": "oxfmt . --check"
   },

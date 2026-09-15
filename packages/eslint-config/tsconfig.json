@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     "alwaysStrict": true,
-    "declaration": false,
+    "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["ESNext", "DOM"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
-    "noEmit": true,
+    "noEmitOnError": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
