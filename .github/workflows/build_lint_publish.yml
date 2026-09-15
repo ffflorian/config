@@ -35,6 +35,10 @@ jobs:
         run: |
           yarn lint
 
+      - name: Build
+        run: |
+          yarn build
+
       - name: Release with Nx
         if: github.event_name != 'pull_request'
         env:

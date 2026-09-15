@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
     "alwaysStrict": true,
-    "declaration": false,
+    "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["ESNext"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
-    "noEmit": true,
+    "noEmitOnError": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -17,5 +16,6 @@
     "strictFunctionTypes": true,
     "target": "es2018",
     "types": ["oxfmt"]
-  }
+  },
+  "exclude": ["oxfmt.config.ts"]
 }
