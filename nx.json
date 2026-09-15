@@ -21,7 +21,10 @@
       "workspaceChangelog": false,
       "projectChangelogs": {
         "createRelease": "github",
-        "entryWhenNoChanges": "This was a dependency update only for {projectName}, there were no code changes."
+        "entryWhenNoChanges": "This was a dependency update only for {projectName}, there were no code changes.",
+        "renderOptions": {
+          "authors": false
+        }
       }
     },
     "git": {
