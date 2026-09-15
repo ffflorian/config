@@ -17,7 +17,7 @@
     "build": "yarn workspaces foreach --all --parallel --exclude config run build",
     "fix": "yarn workspaces foreach --all --parallel --exclude config run fix",
     "lint": "yarn workspaces foreach --all --parallel --exclude config run lint",
-    "format": "oxfmt \"*.{json,md,yml,ts}\"",
+    "format": "oxfmt .",
     "release": "nx release --yes",
     "test": "exit 0"
   },

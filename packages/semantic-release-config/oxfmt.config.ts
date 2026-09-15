@@ -1,6 +1,6 @@
 import {defineConfig} from 'oxfmt';
 
-import config from './index.ts';
+import config from '../oxfmt-config/index.ts';
 
 export default defineConfig({
   ...config,

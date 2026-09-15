@@ -1509,7 +1509,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ffflorian/semantic-release-config@workspace:packages/semantic-release-config"
   dependencies:
-    prettier: "npm:3.9.6"
+    oxfmt: "npm:0.68.0"
   peerDependencies:
     "@semantic-release/changelog": ">= 3.0.0"
     "@semantic-release/git": ">= 7.0.0"

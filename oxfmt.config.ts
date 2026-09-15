@@ -10,5 +10,8 @@ export default defineConfig({
     '**/.yarn/**',
     '**/packages/eslint-config/*.js',
     '**/packages/oxfmt-config/*.js',
+    '**/.yarnrc.yml',
+    '**/CHANGELOG.md',
+    '**/CLAUDE.md',
   ],
 });
