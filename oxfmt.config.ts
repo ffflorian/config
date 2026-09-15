@@ -4,5 +4,11 @@ import config from './packages/oxfmt-config/index.ts';
 
 export default defineConfig({
   ...config,
-  ignorePatterns: ['**/dist/**', '**/node_modules/**', '**/.yarn/**'],
+  ignorePatterns: [
+    '**/dist/**',
+    '**/node_modules/**',
+    '**/.yarn/**',
+    '**/packages/eslint-config/*.js',
+    '**/packages/oxfmt-config/*.js',
+  ],
 });

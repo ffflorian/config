@@ -34,7 +34,7 @@
   "scripts": {
     "build": "tsc",
     "fix": "yarn lint --fix",
-    "lint": "eslint -c index.ts ."
+    "lint": "eslint -c index.ts *.ts"
   },
   "repository": {
     "type": "git",

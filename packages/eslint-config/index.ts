@@ -1,4 +1,5 @@
 import type {ConfigWithExtendsArray} from '@eslint/config-helpers';
+
 import js from '@eslint/js';
 import importPlugin from 'eslint-plugin-import';
 import oxlint from 'eslint-plugin-oxlint';
