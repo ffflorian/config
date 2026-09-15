@@ -1,8 +1,9 @@
 pre-commit:
   parallel: false
   commands:
-    prettier:
-      glob: '*.{json,md,yml,js,mjs,ts}'
+    oxfmt:
+      glob: '*.{md,yml,js,mjs,ts}'
       exclude:
         - CLAUDE.md
-      run: npx --no prettier -- --write {staged_files} && git add {staged_files}
+        - .claude
+      run: npx --no oxfmt {staged_files} && git add {staged_files}

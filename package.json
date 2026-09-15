@@ -5,7 +5,7 @@
     "@nx/js": "23.2.1",
     "lefthook": "2.1.12",
     "nx": "23.2.1",
-    "prettier": "3.9.6"
+    "oxfmt": "0.68.0"
   },
   "engines": {
     "node": ">= 14.10"
@@ -16,7 +16,7 @@
   "scripts": {
     "fix": "yarn workspaces foreach --all --parallel --exclude config run fix",
     "lint": "yarn workspaces foreach --all --parallel --exclude config run lint",
-    "prettier": "prettier \"*.{json,md,yml,ts}\"",
+    "format": "oxfmt \"*.{json,md,yml,ts}\"",
     "release": "nx release --yes",
     "test": "exit 0"
   },
@@ -24,6 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/ffflorian/config.git"
   },
+  "type": "module",
   "workspaces": [
     "packages/*"
   ]
