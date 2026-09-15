@@ -1,32 +1,32 @@
 {
-  "name": "@ffflorian/oxfmt-config",
-  "version": "1.0.5",
-  "description": "@ffflorian's oxfmt configuration",
-  "keywords": [
-    "oxfmt",
-    "oxfmtconfig"
-  ],
-  "license": "GPL-3.0",
   "author": "Florian Imdahl <git@ffflorian.de>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ffflorian/config.git"
+  "description": "@ffflorian's oxfmt configuration",
+  "devDependencies": {
+    "oxfmt": "0.68.0"
   },
   "files": [
     "index.json",
     "LICENSE",
     "README.md"
   ],
-  "type": "module",
+  "keywords": [
+    "oxfmt",
+    "oxfmtconfig"
+  ],
+  "license": "GPL-3.0",
   "main": "index.ts",
+  "name": "@ffflorian/oxfmt-config",
+  "peerDependencies": {
+    "oxfmt": ">=0.68.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffflorian/config.git"
+  },
   "scripts": {
     "fix": "oxfmt .",
     "lint": "oxfmt . --check"
   },
-  "devDependencies": {
-    "oxfmt": "0.68.0"
-  },
-  "peerDependencies": {
-    "oxfmt": ">=0.68.0"
-  }
+  "type": "module",
+  "version": "1.0.0"
 }
