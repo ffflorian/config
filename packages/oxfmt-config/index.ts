@@ -21,7 +21,7 @@ export default defineConfig({
   semi: true,
   singleQuote: true,
   sortImports: true,
-  sortPackageJson: true,
+  sortPackageJson: false,
   tabWidth: 2,
   trailingComma: 'es5',
   useTabs: false,

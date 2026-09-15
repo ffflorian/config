@@ -13,12 +13,15 @@
       "pattern": "{projectName}@{version}"
     },
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "fallbackCurrentVersionResolver": "disk"
     },
     "changelog": {
+      "automaticFromRef": true,
       "workspaceChangelog": false,
       "projectChangelogs": {
-        "createRelease": "github"
+        "createRelease": "github",
+        "entryWhenNoChanges": "This was a dependency update only for {projectName}, there were no code changes."
       }
     },
     "git": {
