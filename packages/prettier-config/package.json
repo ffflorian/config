@@ -26,5 +26,8 @@
     "lint": "prettier --list-different ."
   },
   "type": "module",
-  "version": "1.0.2"
+  "version": "1.0.2",
+  "devDependencies": {
+    "prettier": "3.9.6"
+  }
 }
