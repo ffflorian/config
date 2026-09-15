@@ -1,3 +1,13 @@
+## 1.1.9 (2026-09-15)
+
+### 🚀 Features
+
+- **oxfmt-config:** Add oxfmt config ([#581](https://github.com/ffflorian/config/pull/581))
+
+### ❤️ Thank You
+
+- Florian Imdahl @ffflorian
+
 ## 1.1.8 (2026-09-10)
 
 This was a version bump only for @ffflorian/eslint-config to align it with other projects, there were no code changes.
