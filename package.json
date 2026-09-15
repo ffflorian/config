@@ -24,6 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/ffflorian/config.git"
   },
+  "type": "module",
   "workspaces": [
     "packages/*"
   ]
