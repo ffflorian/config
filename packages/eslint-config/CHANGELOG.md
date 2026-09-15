@@ -1,3 +1,9 @@
+## 1.2.0 (2026-09-15)
+
+### 🚀 Features
+
+- Publish built JS files ([#584](https://github.com/ffflorian/config/pull/584))
+
 ## 1.1.10 (2026-09-15)
 
 This was a dependency update only for @ffflorian/eslint-config, there were no code changes.
