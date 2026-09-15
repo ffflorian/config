@@ -1,3 +1,7 @@
+## 1.1.10 (2026-09-15)
+
+This was a dependency update only for @ffflorian/eslint-config, there were no code changes.
+
 ## 1.1.9 (2026-09-15)
 
 ### 🚀 Features

@@ -1,3 +1,7 @@
+## 1.0.7 (2026-09-15)
+
+This was a dependency update only for @ffflorian/oxlint-config, there were no code changes.
+
 ## 1.0.6 (2026-09-15)
 
 This was a dependency update only for @ffflorian/oxlint-config, there were no code changes.
