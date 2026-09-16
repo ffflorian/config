@@ -1,3 +1,10 @@
+## 1.2.1 (2026-09-16)
+
+### 🩹 Fixes
+
+- **deps:** bump eslint-plugin-oxlint from 1.81.0 to 1.82.0 ([#585](https://github.com/ffflorian/config/pull/585))
+- **deps:** bump typescript-eslint from 8.69.0 to 8.70.0  [ci skip] ([#586](https://github.com/ffflorian/config/pull/586))
+
 ## 1.2.0 (2026-09-15)
 
 ### 🚀 Features
