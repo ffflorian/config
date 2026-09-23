@@ -1,3 +1,10 @@
+## 1.2.2 (2026-09-23)
+
+### 🩹 Fixes
+
+- **deps:** bump eslint-plugin-oxlint from 1.82.0 to 1.83.0 ([#591](https://github.com/ffflorian/config/pull/591))
+- **deps:** bump eslint-plugin-perfectionist from 5.11.0 to 5.11.1  [ci skip] ([#589](https://github.com/ffflorian/config/pull/589))
+
 ## 1.2.1 (2026-09-16)
 
 ### 🩹 Fixes
