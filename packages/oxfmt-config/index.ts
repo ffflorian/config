@@ -6,6 +6,15 @@ const config: OxfmtConfig = {
   bracketSpacing: false,
   endOfLine: 'lf',
   insertFinalNewline: true,
+  ignorePatterns: [
+    '**/dist/**',
+    '**/node_modules/**',
+    '**/.yarn/**',
+    '**/CHANGELOG.md',
+    '**/CLAUDE.md',
+    '**/.claude',
+    '**/.yarnrc.yml',
+  ],
   jsxSingleQuote: false,
   objectWrap: 'preserve',
   overrides: [
