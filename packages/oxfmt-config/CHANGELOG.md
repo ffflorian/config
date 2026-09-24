@@ -1,3 +1,9 @@
+## 1.2.2 (2026-09-24)
+
+### 🩹 Fixes
+
+- **oxfmt-config:** Ignore .yarnrc.yml ([96421f3](https://github.com/ffflorian/config/commit/96421f3))
+
 ## 1.2.1 (2026-09-24)
 
 ### 🩹 Fixes
