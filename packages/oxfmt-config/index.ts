@@ -2,9 +2,11 @@ import {defineConfig, type OxfmtConfig} from 'oxfmt';
 
 const config: OxfmtConfig = {
   arrowParens: 'avoid',
-  bracketSameLine: true,
+  bracketSameLine: false,
   bracketSpacing: false,
   endOfLine: 'lf',
+  insertFinalNewline: true,
+  jsxSingleQuote: false,
   objectWrap: 'preserve',
   overrides: [
     {
@@ -19,6 +21,7 @@ const config: OxfmtConfig = {
   proseWrap: 'never',
   quoteProps: 'as-needed',
   semi: true,
+  singleAttributePerLine: false,
   singleQuote: true,
   sortImports: false,
   sortPackageJson: false,
