@@ -1,3 +1,9 @@
+## 1.3.0 (2026-09-24)
+
+### 🚀 Features
+
+- **oxfmt-config:** Add ignore patterns ([7a44f34](https://github.com/ffflorian/config/commit/7a44f34))
+
 ## 1.2.2 (2026-09-24)
 
 ### 🩹 Fixes
