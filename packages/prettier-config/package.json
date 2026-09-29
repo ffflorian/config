@@ -2,7 +2,7 @@
   "author": "Florian Imdahl <git@ffflorian.de>",
   "description": "@ffflorian's prettier configuration",
   "devDependencies": {
-    "prettier": "3.9.7"
+    "prettier": "3.9.9"
   },
   "exports": "./index.js",
   "files": [
