@@ -1,3 +1,11 @@
+## 1.2.3 (2026-09-30)
+
+### 🩹 Fixes
+
+- **deps:** bump eslint-plugin-perfectionist from 5.11.1 to 5.12.1 ([#594](https://github.com/ffflorian/config/pull/594))
+- **deps:** bump eslint-plugin-oxlint from 1.83.0 to 1.85.0  [ci skip] ([#597](https://github.com/ffflorian/config/pull/597))
+- **deps:** bump typescript-eslint from 8.70.0 to 8.70.1  [ci skip] ([#599](https://github.com/ffflorian/config/pull/599))
+
 ## 1.2.2 (2026-09-23)
 
 ### 🩹 Fixes
