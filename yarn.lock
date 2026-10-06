@@ -1460,7 +1460,7 @@ __metadata:
     eslint: "npm:9.39.5"
     eslint-import-resolver-typescript: "npm:4.4.5"
     eslint-plugin-import: "npm:2.32.0"
-    eslint-plugin-oxlint: "npm:1.85.0"
+    eslint-plugin-oxlint: "npm:1.86.0"
     eslint-plugin-perfectionist: "npm:5.12.1"
     globals: "npm:17.12.0"
     jiti: "npm:2.7.0"
@@ -3696,14 +3696,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-oxlint@npm:1.85.0":
-  version: 1.85.0
-  resolution: "eslint-plugin-oxlint@npm:1.85.0"
+"eslint-plugin-oxlint@npm:1.86.0":
+  version: 1.86.0
+  resolution: "eslint-plugin-oxlint@npm:1.86.0"
   dependencies:
     jsonc-parser: "npm:^3.3.1"
   peerDependencies:
-    oxlint: ~1.85.0
-  checksum: 10c0/a2d88064c277c27a5844d2ba0e3db4ea4f74e297c49368eadb4d134174135b203e4948b023e64238241a44b55d209e19fafb94504417abf7557b4f58eef7a5e5
+    oxlint: ~1.86.0
+  checksum: 10c0/0770c28de0376c27d6db7c7e36d4b1be3ea25dae76807e308d72770d3fdd6a45e46b615d54d4e8e1e89375535669c674907c890912eec4bd2fed20b5b52f5de2
   languageName: node
   linkType: hard
 
