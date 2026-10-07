@@ -1,3 +1,11 @@
+## 1.2.4 (2026-10-07)
+
+### 🩹 Fixes
+
+- **deps:** bump globals from 17.12.0 to 17.13.0 ([#601](https://github.com/ffflorian/config/pull/601))
+- **deps:** bump eslint-plugin-oxlint from 1.85.0 to 1.86.0  [ci skip] ([#604](https://github.com/ffflorian/config/pull/604))
+- **deps:** bump typescript-eslint from 8.70.1 to 8.71.0  [ci skip] ([#605](https://github.com/ffflorian/config/pull/605))
+
 ## 1.2.3 (2026-09-30)
 
 ### 🩹 Fixes
