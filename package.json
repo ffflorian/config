@@ -3,7 +3,7 @@
   "description": "@ffflorian's personal configuration files",
   "devDependencies": {
     "@nx/js": "23.2.1",
-    "lefthook": "2.1.16",
+    "lefthook": "2.1.17",
     "nx": "23.2.1",
     "oxfmt": "0.71.0"
   },
