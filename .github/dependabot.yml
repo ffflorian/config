@@ -9,6 +9,11 @@ updates:
       exclude:
         - '@ffflorian/*'
     directory: /
+    groups:
+      oxc:
+        patterns:
+          - oxfmt
+          - oxlint
     ignore:
       # see https://github.com/jsx-eslint/eslint-plugin-react/issues/3977
       - dependency-name: eslint
