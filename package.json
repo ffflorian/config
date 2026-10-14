@@ -4,7 +4,7 @@
   "devDependencies": {
     "@nx/js": "23.2.1",
     "lefthook": "2.1.17",
-    "nx": "23.2.1",
+    "nx": "23.3.0",
     "oxfmt": "0.71.0"
   },
   "engines": {
