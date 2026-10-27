@@ -2,7 +2,7 @@
   "author": "Florian Imdahl <git@ffflorian.de>",
   "description": "@ffflorian's oxlint configuration",
   "devDependencies": {
-    "oxlint": "1.88.0"
+    "oxlint": "1.89.0"
   },
   "files": [
     "index.json",
