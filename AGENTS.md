@@ -125,8 +125,8 @@ Current workflow (`.github/workflows/build_lint_publish.yml`):
 
 1. Runs on pushes and pull requests targeting `main`.
 2. Installs dependencies with `yarn --immutable`.
-3. Runs lint via `yarn lint`.
-4. Runs `yarn nx release --yes` on non-PR events.
+3. Runs lint via `yarn lint`, then build via `yarn build`.
+4. Runs `yarn nx release --yes` on non-PR events. The release is skipped if `main` has moved past the built commit (the newer run releases instead); runs on the same ref are serialized via `concurrency`.
 
 Releases are managed by `nx release` (configured in `nx.json`): independent per-package versioning from conventional commits, per-package `CHANGELOG.md`, git tags in the `{projectName}@{version}` format, GitHub releases, and npm publish. Nx is used for release management only, not as a build or task runner.
 
