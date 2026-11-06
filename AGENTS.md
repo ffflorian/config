@@ -128,7 +128,7 @@ Current workflow (`.github/workflows/build_lint_publish.yml`):
 3. Runs lint via `yarn lint`, then build via `yarn build`.
 4. Runs `yarn nx release --yes` on non-PR events. The release is skipped if `main` has moved past the built commit (the newer run releases instead); runs on the same ref are serialized via `concurrency`.
 
-Releases are managed by `nx release` (configured in `nx.json`): independent per-package versioning from conventional commits, per-package `CHANGELOG.md`, git tags in the `{projectName}@{version}` format, GitHub releases, and npm publish. Nx is used for release management only, not as a build or task runner.
+Releases are managed by `nx release` (configured in `nx.json`): independent per-package versioning from conventional commits, per-package `CHANGELOG.md`, git tags in the `{projectName}@{version}` format, GitHub releases, and npm publish. Nx is used for release management only, not as a build or task runner. Only `feat` (minor), `fix` (patch) and breaking changes bump versions; all other types (`chore`, `refactor`, `docs`, etc.) are listed in the changelog but never trigger a release on their own (`release.conventionalCommits` in `nx.json`).
 
 `.github/workflows/force_release.yml` forces a bump for every package via `workflow_dispatch` with a `specifier` input (`patch`/`minor`/`major`).
 
