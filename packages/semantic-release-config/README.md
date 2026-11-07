@@ -8,6 +8,10 @@ Shared semantic-release configuration for Node.js packages.
 - Named export: `multiPackageConfig`
 - Named export: `defaultConfig`
 
+## Release Notes
+
+Releases are triggered only by `feat`, `fix`, `perf` and breaking-change commits (Angular rules), but the release notes list all conventional commit types since the last release (`chore`, `refactor`, `docs`, `ci`, etc.).
+
 ## Installation
 
 ```bash

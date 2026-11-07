@@ -35,5 +35,8 @@
     "lint": "oxfmt --check ."
   },
   "type": "module",
-  "version": "1.0.3"
+  "version": "1.0.3",
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "9.3.1"
+  }
 }
