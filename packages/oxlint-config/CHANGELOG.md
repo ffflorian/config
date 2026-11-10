@@ -1,3 +1,9 @@
+## 1.0.16 (2026-11-10)
+
+### 🏡 Chore
+
+- **deps-dev:** bump the oxc group across 1 directory with 2 updates ([#640](https://github.com/ffflorian/config/pull/640))
+
 ## 1.0.15 (2026-11-04)
 
 This was a dependency update only for @ffflorian/oxlint-config, there were no code changes.

@@ -1,3 +1,9 @@
+## 1.2.9 (2026-11-10)
+
+### 🩹 Fixes
+
+- **deps:** bump globals from 17.13.0 to 17.14.0 ([#641](https://github.com/ffflorian/config/pull/641))
+
 ## 1.2.8 (2026-11-04)
 
 ### 🩹 Fixes

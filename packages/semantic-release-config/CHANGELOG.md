@@ -1,3 +1,20 @@
+## 1.0.4 (2026-11-10)
+
+### 🩹 Fixes
+
+- **semantic-release-config:** include all commit types in release notes  [ci skip] ([#637](https://github.com/ffflorian/config/pull/637))
+
+### 🏡 Chore
+
+- **deps-dev:** bump the oxc group across 1 directory with 2 updates ([#640](https://github.com/ffflorian/config/pull/640))
+- **deps-dev:** bump the oxc group across 1 directory with 2 updates  [ci skip] ([#632](https://github.com/ffflorian/config/pull/632))
+- **deps-dev:** bump the oxc group with 2 updates ([#624](https://github.com/ffflorian/config/pull/624))
+- **deps-dev:** bump the oxc group across 1 directory with 2 updates  [ci skip] ([#620](https://github.com/ffflorian/config/pull/620))
+- **deps-dev:** bump the oxc group across 1 directory with 2 updates  [ci skip] ([#610](https://github.com/ffflorian/config/pull/610))
+- **deps-dev:** bump oxfmt from 0.70.0 to 0.71.0  [ci skip] ([#602](https://github.com/ffflorian/config/pull/602))
+- **deps-dev:** bump oxfmt from 0.68.0 to 0.70.0  [ci skip] ([#596](https://github.com/ffflorian/config/pull/596))
+- Use oxfmt in semantic-release-config ([0738fd1](https://github.com/ffflorian/config/commit/0738fd1))
+
 ## 1.0.3 (2026-09-15)
 
 ### 🚀 Features
