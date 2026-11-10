@@ -14,7 +14,22 @@ const defaultConfig = {
     [
       '@semantic-release/release-notes-generator',
       {
-        preset: 'angular',
+        preset: 'conventionalcommits',
+        presetConfig: {
+          types: [
+            {type: 'feat', section: 'Features'},
+            {type: 'fix', section: 'Bug Fixes'},
+            {type: 'perf', section: 'Performance Improvements'},
+            {type: 'revert', section: 'Reverts'},
+            {type: 'refactor', section: 'Code Refactoring'},
+            {type: 'docs', section: 'Documentation'},
+            {type: 'build', section: 'Build System'},
+            {type: 'ci', section: 'Continuous Integration'},
+            {type: 'test', section: 'Tests'},
+            {type: 'style', section: 'Styles'},
+            {type: 'chore', section: 'Miscellaneous Chores'},
+          ],
+        },
         parserOpts: {
           noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING'],
         },
