@@ -1,3 +1,13 @@
+## 1.0.5 (2026-11-18)
+
+### 🩹 Fixes
+
+- **deps:** bump conventional-changelog-conventionalcommits ([#645](https://github.com/ffflorian/config/pull/645))
+
+### 🏡 Chore
+
+- **deps-dev:** bump the oxc group across 1 directory with 2 updates ([#644](https://github.com/ffflorian/config/pull/644))
+
 ## 1.0.4 (2026-11-10)
 
 ### 🩹 Fixes

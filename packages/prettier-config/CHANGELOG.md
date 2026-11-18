@@ -1,3 +1,13 @@
+## 1.0.4 (2026-11-18)
+
+### 🏡 Chore
+
+- **deps-dev:** bump prettier from 3.9.10 to 3.10.1 ([#646](https://github.com/ffflorian/config/pull/646))
+- **deps-dev:** bump prettier from 3.9.9 to 3.9.10  [ci skip] ([#617](https://github.com/ffflorian/config/pull/617))
+- **deps-dev:** bump prettier from 3.9.7 to 3.9.9  [ci skip] ([#598](https://github.com/ffflorian/config/pull/598))
+- **deps-dev:** bump prettier from 3.9.6 to 3.9.7  [ci skip] ([#592](https://github.com/ffflorian/config/pull/592))
+- Use oxfmt in semantic-release-config ([0738fd1](https://github.com/ffflorian/config/commit/0738fd1))
+
 ## 1.0.3 (2026-09-15)
 
 ### 🚀 Features

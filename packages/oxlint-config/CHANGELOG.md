@@ -1,3 +1,9 @@
+## 1.0.17 (2026-11-18)
+
+### 🏡 Chore
+
+- **deps-dev:** bump the oxc group across 1 directory with 2 updates ([#644](https://github.com/ffflorian/config/pull/644))
+
 ## 1.0.16 (2026-11-10)
 
 ### 🏡 Chore
